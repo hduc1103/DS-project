@@ -18,7 +18,7 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 start_date = dt(2023, 1, 1)
 end_date = dt(2023, 6, 30)
 station_id = "488200"
-base_url = "https://meteologix.com/vn/observations/vietnam/temperature/{}-{}z.html"
+base_url = "https://meteologix.com/vn/observations/vietnam/wind-speed/{}-{}z.html"
 
 urls = [
     base_url.format(date.strftime('%Y%m%d'), f"{hour:02d}00")
@@ -26,12 +26,12 @@ urls = [
     for hour in range(24)
 ]
 
-output_file = "HaNoi_temperature_2023.csv"
+output_file = "HaNoi_wind speed_2023.csv"
 error_log_file = "failed_urls.txt"
 batch_size = 100
 
 def initialize_csv():
-    df = pd.DataFrame(columns=["date", "station_id", "time", "temperature"])
+    df = pd.DataFrame(columns=["date", "station_id", "time", "wind speed"])
     df.to_csv(output_file, index=False, mode='w')
 
 def log_error(url):
@@ -59,13 +59,13 @@ def fetch_data(url):
             if title:
                 parts = title.split('|')
                 if len(parts) >= 3:
-                    time_value = parts[2].strip()
-                    temperature = parts[0].strip()
-                    station_data.update({"time": time_value, "temperature": temperature})
+                    time = parts[2].strip()
+                    wind_speed = parts[0].strip()
+                    station_data.update({"time": time, "wind speed": wind_speed})
                 else:
-                    station_data.update({"time": None, "temperature": None})
+                    station_data.update({"time": None, "wind speed": None})
             else:
-                station_data.update({"time": None, "temperature": None})
+                station_data.update({"time": None, "wind speed": None})
             data.append(station_data)
     except (TimeoutException, WebDriverException) as e:
         print(f"Error fetching data for URL {url}: {e}")

@@ -1,4 +1,4 @@
-#Ha Noi wind speed from 2011 to 2023
+#Ha Noi wind direction from 2011 to 2023
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -15,7 +15,7 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 
 chromedriver_autoinstaller.install()
 
-base_url = "https://meteologix.com/vn/observations/vietnam/wind-average-10min/{}-{}z.html"
+base_url = "https://meteologix.com/vn/observations/vietnam/wind-direction/{}-{}z.html"
 start_date = datetime(2011, 1, 1)
 end_date = datetime(2011, 1, 2)
 
@@ -45,14 +45,14 @@ for url in urls:
             parts = title.split('|')
             if len(parts) >= 3:
                 time = parts[2].strip()  
-                wind_speed = parts[0].strip()
-                station_data.update({"time": time, "wind speed": wind_speed})
+                wind_direction = parts[0].strip()
+                station_data.update({"time": time, "wind direction": wind_direction})
             else:
-                station_data.update({"time": None, "wind speed": None})
+                station_data.update({"time": None, "wind direction": None})
         else:
-            station_data.update({"time": None, "wind speed": None})
+            station_data.update({"time": None, "wind direction": None})
         data.append(station_data)
 driver.quit()
 
 df = pd.DataFrame(data)
-df.to_csv("HaNoi_wind_speed_2011_2023.csv", index=False)
+df.to_csv("HaNoi_wind direction_2011_2023.csv", index=False)

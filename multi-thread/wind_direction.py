@@ -1,6 +1,6 @@
-#Ha Noi wind direction from 2011 to 2023
+import time
 import pandas as pd
-from datetime import datetime
+from datetime import datetime as dt
 import concurrent.futures
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -8,14 +8,15 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
+from selenium.common.exceptions import TimeoutException, WebDriverException
 
 chrome_options = Options()
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 
-start_date = datetime(2011, 1, 1)
-end_date = datetime(2023, 12, 31)
+start_date = dt(2023, 1, 1)
+end_date = dt(2023, 6, 30)
 station_id = "488200"
 base_url = "https://meteologix.com/vn/observations/vietnam/wind-direction/{}-{}z.html"
 
@@ -25,20 +26,26 @@ urls = [
     for hour in range(24)
 ]
 
-output_file = "HaNoi_wind_direction_2011_2023.csv"
-batch_size = 1000 
+output_file = "HaNoi_wind direction_2023.csv"
+error_log_file = "failed_urls.txt"
+batch_size = 100
 
 def initialize_csv():
     df = pd.DataFrame(columns=["date", "station_id", "time", "wind direction"])
     df.to_csv(output_file, index=False, mode='w')
 
+def log_error(url):
+    with open(error_log_file, 'a') as f:
+        f.write(f"{url}\n")
+
 def fetch_data(url):
+    print(url)
     data = []
     driver = webdriver.Chrome(options=chrome_options)
     driver.get(url)
     
     try:
-        WebDriverWait(driver, 10).until(
+        WebDriverWait(driver, 5).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, f"[data-station-id='{station_id}']"))
         )
         soup = BeautifulSoup(driver.page_source, 'html.parser')
@@ -60,6 +67,10 @@ def fetch_data(url):
             else:
                 station_data.update({"time": None, "wind direction": None})
             data.append(station_data)
+    except (TimeoutException, WebDriverException) as e:
+        print(f"Error fetching data for URL {url}: {e}")
+        log_error(url)  
+        time.sleep(10)  
     finally:
         driver.quit()
     return data

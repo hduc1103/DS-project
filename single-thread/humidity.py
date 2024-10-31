@@ -3,11 +3,10 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
-import time
+import time as t
 import chromedriver_autoinstaller
 import pandas as pd
 from datetime import datetime
-import time as t
 
 chrome_options = Options()
 chrome_options.add_argument('--headless')
