@@ -27,7 +27,7 @@ urls = [
 ]
 
 output_file = "DS-project/humidity/HaNoi_humidity_2023.csv"
-error_log_file = "DS-project//humidity/failed_urls.txt"
+error_log_file = "DS-project/humidity/failed_urls.txt"
 batch_size = 100
 
 def initialize_csv():

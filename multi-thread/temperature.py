@@ -16,8 +16,8 @@ chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 
-start_date = dt(2023, 2, 1)
-end_date = dt(2023, 5, 31)
+start_date = dt(2023, 6, 30)
+end_date = dt(2023, 10, 31)
 station_id = "488200"
 base_url = "https://meteologix.com/vn/observations/vietnam/temperature/{}-{}z.html"
 
@@ -40,6 +40,15 @@ def log_error(url):
         f.write(f"{url}\n")
 
 def fetch_data(url):
+    """
+    Fetches data from a given URL and returns a list of dictionaries containing the date, station id, time, and temperature.
+
+    Args:
+        url (str): The URL to fetch data from
+
+    Returns:
+        list: A list of dictionaries containing the date, station id, time, and temperature
+    """
     print(url)
     data = []
     driver = webdriver.Chrome(options=chrome_options)
