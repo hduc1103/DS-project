@@ -9,14 +9,15 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 from selenium.common.exceptions import TimeoutException, WebDriverException
+import os
 
 chrome_options = Options()
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 
-start_date = dt(2023, 1, 1)
-end_date = dt(2023, 6, 30)
+start_date = dt(2023, 2, 1)
+end_date = dt(2023, 5, 31)
 station_id = "488200"
 base_url = "https://meteologix.com/vn/observations/vietnam/temperature/{}-{}z.html"
 
@@ -26,14 +27,14 @@ urls = [
     for hour in range(24)
 ]
 
-output_file = "HaNoi_temperature_2023.csv"
+output_file = "DS-project/HaNoi_temperature_2023.csv"
 error_log_file = "failed_urls.txt"
 batch_size = 100
 
 def initialize_csv():
-    df = pd.DataFrame(columns=["date", "station_id", "time", "temperature"])
-    df.to_csv(output_file, index=False, mode='w')
-
+    if not os.path.exists(output_file):
+        df = pd.DataFrame(columns=["date", "station_id", "time", "temperature"])
+        df.to_csv(output_file, index=False, mode='w')
 def log_error(url):
     with open(error_log_file, 'a') as f:
         f.write(f"{url}\n")
@@ -86,7 +87,7 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
     for i, result in enumerate(executor.map(fetch_data, urls), start=1):
         batch_data.extend(result)
         
-        if i % batch_size == 0:
+        if i % batch_size == 0 and batch_data:
             save_batch_to_csv(batch_data)
             batch_data.clear() 
 
