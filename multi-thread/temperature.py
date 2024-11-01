@@ -27,8 +27,8 @@ urls = [
     for hour in range(24)
 ]
 
-output_file = "DS-project/HaNoi_temperature_2023.csv"
-error_log_file = "failed_urls.txt"
+output_file = "DS-project/temperature/HaNoi_temperature_2023.csv"
+error_log_file = "DS-project/temperature/failed_urls.txt"
 batch_size = 100
 
 def initialize_csv():

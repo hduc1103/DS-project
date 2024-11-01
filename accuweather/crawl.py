@@ -1,3 +1,5 @@
+#blocked
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
@@ -18,9 +20,11 @@ driver = webdriver.Chrome(options=chrome_options)
 
 driver.get(url)
 t.sleep(5)  
+print(driver.page_source)
 soup = BeautifulSoup(driver.page_source, 'html.parser')
 
 cards = soup.find_all("a", class_="index-list-card")
+print(f"Found {len(cards)} cards")
 
 data = []
 for card in cards:
@@ -35,4 +39,3 @@ driver.quit()
 output_file = "health_activities.csv"
 df = pd.DataFrame(data)
 df.to_csv(output_file, index=False)
-print(f"Data saved to {output_file}")

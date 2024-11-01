@@ -19,7 +19,7 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 start_date = dt(2023, 1, 1)
 end_date = dt(2023, 6, 30)
 station_id = "488200"
-base_url = "https://meteologix.com/vn/observations/vietnam/wind-speed/{}-{}z.html"
+base_url = "https://meteologix.com/vn/observations/vietnam/wind-average-10min/{}-{}z.html"
 
 urls = [
     base_url.format(date.strftime('%Y%m%d'), f"{hour:02d}00")
@@ -27,8 +27,8 @@ urls = [
     for hour in range(24)
 ]
 
-output_file = "DS-project/HaNoi_wind_speed_2023.csv"
-error_log_file = "failed_urls.txt"
+output_file = "DS-project/wind_speed/HaNoi_wind_speed_2023.csv"
+error_log_file = "DS-project/wind_speed/failed_urls.txt"
 batch_size = 100
 
 def initialize_csv():
