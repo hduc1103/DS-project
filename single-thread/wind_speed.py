@@ -7,6 +7,7 @@ import time as t
 import chromedriver_autoinstaller
 import pandas as pd
 from datetime import datetime
+import os
 
 chrome_options = Options()
 chrome_options.add_argument('--headless')
@@ -16,7 +17,7 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 chromedriver_autoinstaller.install()
 
 base_url = "https://meteologix.com/vn/observations/vietnam/wind-average-10min/{}-{}z.html"
-start_date = datetime(2011, 1, 1)
+start_date = datetime(2011, 1, 2)
 end_date = datetime(2011, 1, 2)
 
 urls = [
@@ -53,6 +54,8 @@ for url in urls:
             station_data.update({"time": None, "wind speed": None})
         data.append(station_data)
 driver.quit()
+output_file = "DS-project/HaNoi_wind_speed_2011_2023.csv"
+file_exists = os.path.exists(output_file)
 
 df = pd.DataFrame(data)
-df.to_csv("HaNoi_wind_speed_2011_2023.csv", index=False)
+df.to_csv(output_file, index=False, mode='a', header=not file_exists)

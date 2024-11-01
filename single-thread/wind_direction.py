@@ -7,6 +7,7 @@ import time as t
 import chromedriver_autoinstaller
 import pandas as pd
 from datetime import datetime
+import os
 
 chrome_options = Options()
 chrome_options.add_argument('--headless')
@@ -54,5 +55,8 @@ for url in urls:
         data.append(station_data)
 driver.quit()
 
+output_file = "DS-project/HaNoi_wind_direction_2011_2023.csv"
+
+file_exists = os.path.exists(output_file)
 df = pd.DataFrame(data)
-df.to_csv("HaNoi_wind direction_2011_2023.csv", index=False)
+df.to_csv(output_file, index=False, mode='a', header=not file_exists)
