@@ -12,8 +12,8 @@ chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 
 station_id = "488250"
-input_file = "DS-project/temperature/failed_urls.txt"
-output_file = "DS-project/temperature/HaNoi_temperature_2023_retry.csv"
+input_file = "wind_direction/failed_missed_url.txt"
+output_file = "wind_direction/HaDongretry.csv"
 
 def initialize_csv():
     if not os.path.exists(output_file):

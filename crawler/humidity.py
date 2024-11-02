@@ -10,16 +10,15 @@ from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 from selenium.common.exceptions import TimeoutException, WebDriverException
 import os
-
 chrome_options = Options()
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 
-start_date = dt(2023, 1, 1)
+start_date = dt(2023, 1, 2)
 end_date = dt(2023, 6, 30)
 station_id = "488200"
-base_url = "https://meteologix.com/vn/observations/vietnam/wind-direction/{}-{}z.html"
+base_url = "https://meteologix.com/vn/observations/vietnam/humidity/{}-{}z.html"
 
 urls = [
     base_url.format(date.strftime('%Y%m%d'), f"{hour:02d}00")
@@ -27,15 +26,14 @@ urls = [
     for hour in range(24)
 ]
 
-output_file = "DS-project/wind_direction/HaNoi_wind_direction_2023.csv"
-error_log_file = "DS-project/wind_direction/failed_urls.txt"
+output_file = "humidity/HaNoi_humidity_2023.csv"
+error_log_file = "humidity/failed_urls.txt"
 batch_size = 100
 
 def initialize_csv():
     if not os.path.exists(output_file):
-        df = pd.DataFrame(columns=["date", "station_id", "time", "wind direction"])
+        df = pd.DataFrame(columns=["date", "station_id", "time", "humidity"])
         df.to_csv(output_file, index=False, mode='w')
-
 def log_error(url):
     with open(error_log_file, 'a') as f:
         f.write(f"{url}\n")
@@ -62,12 +60,12 @@ def fetch_data(url):
                 parts = title.split('|')
                 if len(parts) >= 3:
                     time_value = parts[2].strip()
-                    wind_direction = parts[0].strip()
-                    station_data.update({"time": time_value, "wind direction": wind_direction})
+                    humidity = parts[0].strip()
+                    station_data.update({"time": time_value, "humidity": humidity})
                 else:
-                    station_data.update({"time": None, "wind direction": None})
+                    station_data.update({"time": None, "humidity": None})
             else:
-                station_data.update({"time": None, "wind direction": None})
+                station_data.update({"time": None, "humidity": None})
             data.append(station_data)
     except (TimeoutException, WebDriverException) as e:
         print(f"Error fetching data for URL {url}: {e}")
