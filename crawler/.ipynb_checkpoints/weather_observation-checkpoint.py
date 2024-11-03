@@ -9,18 +9,17 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 from selenium.common.exceptions import TimeoutException, WebDriverException
-import os
+import os 
 
 chrome_options = Options()
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
-chrome_options.add_argument('--disable-gpu')
 
-start_date = dt(2022, 1, 1)
-end_date = dt(2022, 12, 31)
+start_date = dt(2023, 1, 1)
+end_date = dt(2023, 6, 30)
 station_id = "488200"
-base_url = "https://meteologix.com/vn/observations/vietnam/temperature/{}-{}z.html"
+base_url = "https://meteologix.com/vn/observations/vietnam/weather-observation/{}-{}z.html"
 
 urls = [
     base_url.format(date.strftime('%Y%m%d'), f"{hour:02d}00")
@@ -28,28 +27,20 @@ urls = [
     for hour in range(24)
 ]
 
-output_file = "temperature/HaNoi_temperature_2022.csv" 
-error_log_file = "temperature/failed_urls_2022.txt"
+output_file = "DS-project/weather_observation/HaNoi_weather_observation_2023.csv"
+error_log_file = "DS-project/weather_observation/failed_urls.txt"
 batch_size = 100
 
 def initialize_csv():
     if not os.path.exists(output_file):
-        df = pd.DataFrame(columns=["date", "station_id", "time", "temperature"])
+        df = pd.DataFrame(columns=["date", "station_id", "time", "weather observation"])
         df.to_csv(output_file, index=False, mode='w')
+
 def log_error(url):
     with open(error_log_file, 'a') as f:
         f.write(f"{url}\n")
 
 def fetch_data(url):
-    """
-    Fetches data from a given URL and returns a list of dictionaries containing the date, station id, time, and temperature.
-
-    Args:
-        url (str): The URL to fetch data from
-
-    Returns:
-        list: A list of dictionaries containing the date, station id, time, and temperature
-    """
     print(url)
     data = []
     driver = webdriver.Chrome(options=chrome_options)
@@ -71,12 +62,12 @@ def fetch_data(url):
                 parts = title.split('|')
                 if len(parts) >= 3:
                     time_value = parts[2].strip()
-                    temperature = parts[0].strip()
-                    station_data.update({"time": time_value, "temperature": temperature})
+                    weather_observation = parts[0].strip()
+                    station_data.update({"time": time_value, "weather observation": weather_observation})
                 else:
-                    station_data.update({"time": None, "temperature": None})
+                    station_data.update({"time": None, "weather observation": None})
             else:
-                station_data.update({"time": None, "temperature": None})
+                station_data.update({"time": None, "weather observation": None})
             data.append(station_data)
     except (TimeoutException, WebDriverException) as e:
         print(f"Error fetching data for URL {url}: {e}")

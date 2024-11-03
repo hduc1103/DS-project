@@ -15,12 +15,11 @@ chrome_options = Options()
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
-chrome_options.add_argument('--disable-gpu')
 
-start_date = dt(2022, 1, 1)
-end_date = dt(2022, 12, 31)
+start_date = dt(2023, 4, 26)
+end_date = dt(2023, 12, 31)
 station_id = "488200"
-base_url = "https://meteologix.com/vn/observations/vietnam/temperature/{}-{}z.html"
+base_url = "https://meteologix.com/vn/observations/vietnam/wind-direction/{}-{}z.html"
 
 urls = [
     base_url.format(date.strftime('%Y%m%d'), f"{hour:02d}00")
@@ -28,28 +27,20 @@ urls = [
     for hour in range(24)
 ]
 
-output_file = "temperature/HaNoi_temperature_2022.csv" 
-error_log_file = "temperature/failed_urls_2022.txt"
+output_file = "wind_direction/HaNoi_wind_direction_2023.csv"
+error_log_file = "wind_direction/failed_urls.txt"
 batch_size = 100
 
 def initialize_csv():
     if not os.path.exists(output_file):
-        df = pd.DataFrame(columns=["date", "station_id", "time", "temperature"])
+        df = pd.DataFrame(columns=["date", "station_id", "time", "wind direction"])
         df.to_csv(output_file, index=False, mode='w')
+
 def log_error(url):
     with open(error_log_file, 'a') as f:
         f.write(f"{url}\n")
 
 def fetch_data(url):
-    """
-    Fetches data from a given URL and returns a list of dictionaries containing the date, station id, time, and temperature.
-
-    Args:
-        url (str): The URL to fetch data from
-
-    Returns:
-        list: A list of dictionaries containing the date, station id, time, and temperature
-    """
     print(url)
     data = []
     driver = webdriver.Chrome(options=chrome_options)
@@ -71,12 +62,12 @@ def fetch_data(url):
                 parts = title.split('|')
                 if len(parts) >= 3:
                     time_value = parts[2].strip()
-                    temperature = parts[0].strip()
-                    station_data.update({"time": time_value, "temperature": temperature})
+                    wind_direction = parts[0].strip()
+                    station_data.update({"time": time_value, "wind direction": wind_direction})
                 else:
-                    station_data.update({"time": None, "temperature": None})
+                    station_data.update({"time": None, "wind direction": None})
             else:
-                station_data.update({"time": None, "temperature": None})
+                station_data.update({"time": None, "wind direction": None})
             data.append(station_data)
     except (TimeoutException, WebDriverException) as e:
         print(f"Error fetching data for URL {url}: {e}")
