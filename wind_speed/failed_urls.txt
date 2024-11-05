@@ -37,3 +37,5 @@ https://meteologix.com/vn/observations/vietnam/wind-average-10min/20230614-0700z
 https://meteologix.com/vn/observations/vietnam/wind-average-10min/20230623-1300z.html
 https://meteologix.com/vn/observations/vietnam/wind-average-10min/20230629-0300z.html
 https://meteologix.com/vn/observations/vietnam/wind-average-10min/20230702-1600z.html
+https://meteologix.com/vn/observations/vietnam/wind-average-10min/20230709-1900z.html
+https://meteologix.com/vn/observations/vietnam/wind-average-10min/20230712-0300z.html
