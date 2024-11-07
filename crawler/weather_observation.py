@@ -14,7 +14,7 @@ chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_argument('--disable-gpu')
 
-start_date = dt(2023, 10, 15)
+start_date = dt(2023, 10, 13)
 end_date = dt(2023, 12, 31)
 station_ids = ["488200", "488250"]
 base_url = "https://meteologix.com/vn/observations/vietnam/weather-observation/{}-{}z.html"
@@ -26,8 +26,7 @@ urls = [
     for hour in allowed_hours
 ]
 
-output_file = "DS-project/weather_observation/HaNoi_weather_observation_2023.csv"
-error_log_file = "DS-project/weather_observation/failed_urls.txt"
+output_file = "weather_observation/HaNoi_weather_observation_2023.csv"
 batch_size = 100
 
 def initialize_csv():

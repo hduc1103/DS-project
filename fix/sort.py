@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv('wind_speed/HaNoi_wind_speed_2023.csv', skip_blank_lines=True)
+df = pd.read_csv('weather_observation/HaNoi_weather_observation_2023.csv', skip_blank_lines=True)
 
 def convert_to_24_hour(time_str):
     try:
