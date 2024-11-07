@@ -5,20 +5,18 @@ import concurrent.futures
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
-from selenium.common.exceptions import TimeoutException, WebDriverException
-import os 
+import os
 
 chrome_options = Options()
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
+chrome_options.add_argument('--disable-gpu')
 
-start_date = dt(2023, 10, 7)
+start_date = dt(2023, 10, 15)
 end_date = dt(2023, 12, 31)
-station_id = "488200"
+station_ids = ["488200", "488250"]
 base_url = "https://meteologix.com/vn/observations/vietnam/weather-observation/{}-{}z.html"
 
 allowed_hours = [22, 19, 16, 13, 10, 7, 4, 1] 
@@ -36,29 +34,23 @@ def initialize_csv():
     if not os.path.exists(output_file):
         df = pd.DataFrame(columns=["date", "station_id", "time", "weather observation"])
         df.to_csv(output_file, index=False, mode='w')
-
-def log_error(url):
-    with open(error_log_file, 'a') as f:
-        f.write(f"{url}\n")
-
+    
 def fetch_data(url):
     print(url)
     data = []
     driver = webdriver.Chrome(options=chrome_options)
     driver.get(url)
     
-    try:
-        WebDriverWait(driver, 5).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, f"[data-station-id='{station_id}']"))
-        )
-        soup = BeautifulSoup(driver.page_source, 'html.parser')
+    soup = BeautifulSoup(driver.page_source, 'html.parser')
+    
+    for station_id in station_ids:
         element = soup.find(attrs={"data-station-id": station_id})
         
         if element:
             title = element.get("title")
             date = url.split('/')[-1].split('-')[0]
             station_data = {"date": date, "station_id": station_id}
-
+            
             if title:
                 parts = title.split('|')
                 if len(parts) >= 3:
@@ -67,22 +59,17 @@ def fetch_data(url):
                     station_data.update({"time": time_value, "weather observation": weather_observation})
                 else:
                     station_data.update({"time": None, "weather observation": None})
-            else:
-                station_data.update({"time": None, "weather observation": None})
+            
             data.append(station_data)
-    except (TimeoutException, WebDriverException) as e:
-        print(f"Error fetching data for URL {url}: {e}")
-        log_error(url)  
-        time.sleep(10)  
-    finally:
-        driver.quit()
+            break  
+    driver.quit()
     return data
 
 def save_batch_to_csv(batch_data):
     df = pd.DataFrame(batch_data)
-    df.to_csv(output_file, index=False, mode='a', header=False)  
+    df.to_csv(output_file, index=False, mode='a', header=False)
 
-initialize_csv() 
+initialize_csv()
 
 batch_data = []
 with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
@@ -91,7 +78,7 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
         
         if i % batch_size == 0 and batch_data:
             save_batch_to_csv(batch_data)
-            batch_data.clear() 
+            batch_data.clear()
 
 if batch_data:
     save_batch_to_csv(batch_data)
