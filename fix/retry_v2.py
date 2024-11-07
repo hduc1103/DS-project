@@ -10,47 +10,22 @@ from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 from selenium.common.exceptions import TimeoutException, WebDriverException
 import os
-
 chrome_options = Options()
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
-chrome_options.add_argument('--disable-gpu')
 
-start_date = dt(2023, 1, 1)
-end_date = dt(2023, 1, 2)
-station_id = "488200"
-base_url = "https://meteologix.com/vn/observations/vietnam/precipitation-total-12h/{}-{}z.html"
-
-allowed_hours = [19,7] 
-urls = [
-    base_url.format(date.strftime('%Y%m%d'), f"{hour:02d}00")
-    for date in pd.date_range(start_date, end_date)
-    for hour in allowed_hours
-]
-
-output_file = "DS-project/precipitation_total_12h/HaNoi_precipitation_total_12h_2023.csv" 
-error_log_file = "DS-project/precipitation_total_12h/failed_urls.txt"
+station_id = "488250"
+input_file = "DS-project/weather_observation/failed_urls.txt"
+output_file = "DS-project/weather_observation/HaNoi_weather_observation_2023.csv"
 batch_size = 100
 
 def initialize_csv():
     if not os.path.exists(output_file):
-        df = pd.DataFrame(columns=["date", "station_id", "time", "precipitation total 12h"])
+        df = pd.DataFrame(columns=["date", "station_id", "time", "humidity"])
         df.to_csv(output_file, index=False, mode='w')
-def log_error(url):
-    with open(error_log_file, 'a') as f:
-        f.write(f"{url}\n")
 
 def fetch_data(url):
-    """
-    Fetches data from a given URL and returns a list of dictionaries containing the date, station id, time, and precipitation total 12h.
-
-    Args:
-        url (str): The URL to fetch data from
-
-    Returns:
-        list: A list of dictionaries containing the date, station id, time, and precipitation total 12h
-    """
     print(url)
     data = []
     driver = webdriver.Chrome(options=chrome_options)
@@ -72,16 +47,15 @@ def fetch_data(url):
                 parts = title.split('|')
                 if len(parts) >= 3:
                     time_value = parts[2].strip()
-                    precipitation_total_12h = parts[0].strip()
-                    station_data.update({"time": time_value, "precipitation total 12h": precipitation_total_12h})
+                    humidity = parts[0].strip()
+                    station_data.update({"time": time_value, "humidity": humidity})
                 else:
-                    station_data.update({"time": None, "precipitation total 12h": None})
+                    station_data.update({"time": None, "humidity": None})
             else:
-                station_data.update({"time": None, "precipitation total 12h": None})
+                station_data.update({"time": None, "humidity": None})
             data.append(station_data)
-    except (TimeoutException, WebDriverException):
-        print(f"Error fetching data for URL {url}")
-        log_error(url)  
+    except (TimeoutException, WebDriverException) as e:
+        print(f"Error fetching data for URL {url}: {e}")
         time.sleep(10)  
     finally:
         driver.quit()
@@ -94,13 +68,15 @@ def save_batch_to_csv(batch_data):
 initialize_csv() 
 
 batch_data = []
-with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
-    for i, result in enumerate(executor.map(fetch_data, urls), start=1):
-        batch_data.extend(result)
-        
-        if i % batch_size == 0 and batch_data:
-            save_batch_to_csv(batch_data)
-            batch_data.clear() 
+with open(input_file, 'r') as file:
+    urls = file.readlines()
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+        for i, result in enumerate(executor.map(fetch_data, urls), start=1):
+            batch_data.extend(result)
+            
+            if i % batch_size == 0 and batch_data:
+                save_batch_to_csv(batch_data)
+                batch_data.clear()
 
 if batch_data:
     save_batch_to_csv(batch_data)
