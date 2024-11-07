@@ -16,8 +16,8 @@ chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 
-start_date = dt(2023, 1, 4)
-end_date = dt(2023, 6, 30)
+start_date = dt(2023, 10, 7)
+end_date = dt(2023, 12, 31)
 station_id = "488200"
 base_url = "https://meteologix.com/vn/observations/vietnam/weather-observation/{}-{}z.html"
 
