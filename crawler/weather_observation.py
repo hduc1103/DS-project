@@ -16,7 +16,7 @@ chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 
-start_date = dt(2023, 7, 1)
+start_date = dt(2023, 10, 7)
 end_date = dt(2023, 12, 31)
 station_id = "488200"
 base_url = "https://meteologix.com/vn/observations/vietnam/weather-observation/{}-{}z.html"
@@ -70,8 +70,8 @@ def fetch_data(url):
             else:
                 station_data.update({"time": None, "weather observation": None})
             data.append(station_data)
-    except (TimeoutException, WebDriverException):
-        print(f"Error fetching data for URL {url}")
+    except (TimeoutException, WebDriverException) as e:
+        print(f"Error fetching data for URL {url}: {e}")
         log_error(url)  
         time.sleep(10)  
     finally:
