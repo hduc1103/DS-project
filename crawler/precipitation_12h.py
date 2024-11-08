@@ -14,30 +14,25 @@ chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_argument('--disable-gpu')
 
-start_date = dt(2022, 1, 1)
-end_date = dt(2022, 2, 28)
-station_id = "488200"
-base_url = "https://meteologix.com/vn/observations/vietnam/weather-observation/{}-{}z.html"
+start_date = dt(2023, 1, 1)
+end_date = dt(2023, 12, 31)
+station_ids = ["488200", "488250"]
+base_url = "https://meteologix.com/vn/observations/vietnam/precipitation-total-12h/{}-{}z.html"
 
-allowed_hours = [22, 19, 16, 13, 10, 7, 4, 1] 
+allowed_hours = [19, 7]
 urls = [
     base_url.format(date.strftime('%Y%m%d'), f"{hour:02d}00")
     for date in pd.date_range(start_date, end_date)
     for hour in allowed_hours
 ]
 
-output_file = "weather_observation/HaNoi_weather_observation_2022.csv"
-error_log_file = "weather_observation/failed_urls.txt"
+output_file = "DS-project/precipitation_total_12h/HaNoi_precipitation_total_12h_2023.csv"
 batch_size = 100
 
 def initialize_csv():
     if not os.path.exists(output_file):
-        df = pd.DataFrame(columns=["date", "station_id", "time", "weather observation"])
+        df = pd.DataFrame(columns=["date", "station_id", "time", "precipitation total 12h"])
         df.to_csv(output_file, index=False, mode='w')
-
-def log_error(url):
-    with open(error_log_file, 'a') as f:
-        f.write(f"{url}\n")
 
 def fetch_data(url):
     print(url)
@@ -46,13 +41,11 @@ def fetch_data(url):
     driver.get(url)
     
     soup = BeautifulSoup(driver.page_source, 'html.parser')
-    station_found = False
     
     for station_id in station_ids:
         element = soup.find(attrs={"data-station-id": station_id})
         
         if element:
-            station_found = True
             title = element.get("title")
             date = url.split('/')[-1].split('-')[0]
             station_data = {"date": date, "station_id": station_id}
@@ -61,19 +54,16 @@ def fetch_data(url):
                 parts = title.split('|')
                 if len(parts) >= 3:
                     time_value = parts[2].strip()
-                    weather_observation = parts[0].strip()
-                    station_data.update({"time": time_value, "weather observation": weather_observation})
+                    precipitation_total_12h = parts[0].strip()
+                    station_data.update({"time": time_value, "precipitation total 12h": precipitation_total_12h})
                 else:
-                    station_data.update({"time": None, "weather observation": None})
+                    station_data.update({"time": None, "precipitation total 12h": None})
+            else:
+                station_data.update({"time": None, "precipitation total 12h": None})
             
             data.append(station_data)
-            break  
-
+            break
     driver.quit()
-
-    if not station_found:
-        log_error(url)
-
     return data
 
 def save_batch_to_csv(batch_data):
