@@ -83,3 +83,4 @@ https://meteologix.com/vn/observations/vietnam/wind-direction/20231203-1900z.htm
 https://meteologix.com/vn/observations/vietnam/wind-direction/20231218-0300z.html
 https://meteologix.com/vn/observations/vietnam/wind-direction/20231224-2100z.html
 https://meteologix.com/vn/observations/vietnam/wind-direction/20231227-1300z.html
+
