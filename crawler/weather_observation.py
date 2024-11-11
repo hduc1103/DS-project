@@ -14,31 +14,26 @@ chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_argument('--disable-gpu')
 
-start_date = dt(2023, 1, 1)
+start_date = dt(2023, 10, 13)
 end_date = dt(2023, 12, 31)
 station_ids = ["488200", "488250"]
 base_url = "https://meteologix.com/vn/observations/vietnam/weather-observation/{}-{}z.html"
 
-allowed_hours = [22, 19, 16, 13, 10, 7, 4, 1] 
+allowed_hours = [0, 3, 6, 9, 12, 15, 18, 21]  
 urls = [
     base_url.format(date.strftime('%Y%m%d'), f"{hour:02d}00")
     for date in pd.date_range(start_date, end_date)
     for hour in allowed_hours
 ]
 
-output_file = "DS-project/weather_observation/HaNoi_weather_observation_2023.csv"
-error_log_file = "DS-project/weather_observation/failed_urls.txt"
+output_file = "weather_observation/HaNoi_weather_observation_2023.csv"
 batch_size = 100
 
 def initialize_csv():
     if not os.path.exists(output_file):
         df = pd.DataFrame(columns=["date", "station_id", "time", "weather observation"])
         df.to_csv(output_file, index=False, mode='w')
-
-def log_error(url):
-    with open(error_log_file, 'a') as f:
-        f.write(f"{url}\n")
-
+    
 def fetch_data(url):
     print(url)
     data = []
@@ -46,13 +41,11 @@ def fetch_data(url):
     driver.get(url)
     
     soup = BeautifulSoup(driver.page_source, 'html.parser')
-    station_found = False
     
     for station_id in station_ids:
         element = soup.find(attrs={"data-station-id": station_id})
         
         if element:
-            station_found = True
             title = element.get("title")
             date = url.split('/')[-1].split('-')[0]
             station_data = {"date": date, "station_id": station_id}
@@ -68,12 +61,7 @@ def fetch_data(url):
             
             data.append(station_data)
             break  
-
     driver.quit()
-
-    if not station_found:
-        log_error(url)
-
     return data
 
 def save_batch_to_csv(batch_data):

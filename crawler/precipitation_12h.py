@@ -19,14 +19,14 @@ end_date = dt(2023, 12, 31)
 station_ids = ["488200", "488250"]
 base_url = "https://meteologix.com/vn/observations/vietnam/precipitation-total-12h/{}-{}z.html"
 
-allowed_hours = [19, 7]
+allowed_hours = [0, 12]
 urls = [
     base_url.format(date.strftime('%Y%m%d'), f"{hour:02d}00")
     for date in pd.date_range(start_date, end_date)
     for hour in allowed_hours
 ]
 
-output_file = "DS-project/precipitation_total_12h/HaNoi_precipitation_total_12h_2023.csv"
+output_file = "precipitation_total_12h/HaNoi_precipitation_total_12h_2023.csv"
 batch_size = 100
 
 def initialize_csv():
