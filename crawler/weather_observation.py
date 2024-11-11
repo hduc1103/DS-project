@@ -19,7 +19,7 @@ end_date = dt(2023, 12, 31)
 station_ids = ["488200", "488250"]
 base_url = "https://meteologix.com/vn/observations/vietnam/weather-observation/{}-{}z.html"
 
-allowed_hours = [22, 19, 16, 13, 10, 7, 4, 1] 
+allowed_hours = [0, 3, 6, 9, 12, 15, 18, 21]  
 urls = [
     base_url.format(date.strftime('%Y%m%d'), f"{hour:02d}00")
     for date in pd.date_range(start_date, end_date)

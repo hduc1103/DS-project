@@ -6,7 +6,6 @@ import concurrent.futures
 from selenium.common.exceptions import TimeoutException, WebDriverException
 import threading
 
-# Configure Chrome options
 chrome_options = Options()
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
@@ -43,7 +42,7 @@ def check_and_write_url(url):
             print(f"No matching station ID found in URL: {url}")
     except (TimeoutException, WebDriverException) as e:
         print(f"Error fetching data for URL {url}: {e}")
-        log_error(url)  # Log the URL in case of error
+        log_error(url) 
     finally:
         driver.quit()
 
