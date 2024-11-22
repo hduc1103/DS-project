@@ -17,8 +17,8 @@ chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_argument('--disable-gpu')
 
-start_date = dt(2023, 9, 21)
-end_date = dt(2023, 12, 31)
+start_date = dt(2024, 3, 1)
+end_date = dt(2024, 6, 30)
 station_id = "488200"
 base_url = "https://meteologix.com/vn/observations/vietnam/temperature/{}-{}z.html"
 
@@ -28,7 +28,7 @@ urls = [
     for hour in range(24)
 ]
 
-output_file = "temperature/HaNoi_temperature_2023.csv" 
+output_file = "temperature/HaNoi_temperature_2024.csv" 
 error_log_file = "temperature/failed_urls.txt"
 batch_size = 100
 
