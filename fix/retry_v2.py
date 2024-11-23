@@ -16,8 +16,8 @@ chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 
 station_id = "488250"
-input_file = "DS-project/weather_observation/failed_urls.txt"
-output_file = "DS-project/weather_observation/HaNoi_weather_observation_2023.csv"
+input_file = "humidity/failed_urls.txt"
+output_file = "humidity/HaNoi_humidity_2024.csv"
 batch_size = 100
 
 def initialize_csv():
