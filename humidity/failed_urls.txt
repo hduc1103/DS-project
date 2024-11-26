@@ -210,6 +210,10 @@ https://meteologix.com/vn/observations/vietnam/humidity/20201023-1900z.html
 https://meteologix.com/vn/observations/vietnam/humidity/20201111-0000z.html
 https://meteologix.com/vn/observations/vietnam/humidity/20201121-1500z.html
 https://meteologix.com/vn/observations/vietnam/humidity/20201207-1800z.html
+https://meteologix.com/vn/observations/vietnam/humidity/20190111-1600z.html
+https://meteologix.com/vn/observations/vietnam/humidity/20190122-0300z.html
+https://meteologix.com/vn/observations/vietnam/humidity/20190208-1400z.html
+
 
 
 
