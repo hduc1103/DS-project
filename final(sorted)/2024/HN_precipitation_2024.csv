@@ -1,4 +1,4 @@
-date,station_id,time,temperature
+date,station_id,time,precipitation
 20240103,488250,07:00am,0.6mm
 20240103,488250,07:00pm,4.0mm
 20240110,488250,07:00am,2.0mm

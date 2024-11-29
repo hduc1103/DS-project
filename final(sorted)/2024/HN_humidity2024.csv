@@ -1,4 +1,4 @@
-date,station_id,time,temperature
+date,station_id,time,humidity
 20240101,488200,12:00am,83%
 20240101,488200,01:00am,88%
 20240101,488200,02:00am,88%
