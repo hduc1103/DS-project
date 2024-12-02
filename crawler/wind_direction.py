@@ -16,8 +16,8 @@ chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 
-start_date = dt(2023, 4, 26)
-end_date = dt(2023, 12, 31)
+start_date = dt(2019, 1, 1)
+end_date = dt(2019, 12, 31)
 station_id = "488200"
 base_url = "https://meteologix.com/vn/observations/vietnam/wind-direction/{}-{}z.html"
 
@@ -27,7 +27,7 @@ urls = [
     for hour in range(24)
 ]
 
-output_file = "wind_direction/HaNoi_wind_direction_2023.csv"
+output_file = "wind_direction/HaNoi_wind_direction_2019.csv"
 error_log_file = "wind_direction/failed_urls.txt"
 batch_size = 100
 
