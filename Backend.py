@@ -69,14 +69,25 @@ def get_current_data():
         if element:
             title = element.get("title")
             parts = title.split('|')
-            data= parts[0].strip()
+            new_data= parts[0].strip()
             cur_url = url.split('/')
             if cur_url[4]=="temperature":
-                data.update({"temperature: ": {data}})
+                data.update({"temperature: ": {new_data}})
             elif cur_url[4]=="humidity":
-                data.update({"humidity: ": {data}})
+                data.update({"humidity: ": {new_data}})
+            elif cur_url[4]=="precipitation":
+                data.update({"precipitation: ": {new_data}})
+            elif cur_url[4] =="weather-observation":
+                data.update({"weather observation: ": {new_data}})
+            elif cur_url[4] =="wind-direction":
+                data.update({"wind direction: ": {new_data}})
+            elif cur_url[4] =="wind-average-10min":
+                data.update({"wind speed: ": {new_data}})
     print(data)
         
+def get_data():
+    
+    
 
 # @app.post("/predict", response_model=ModelOutput)
 # def predict(input_data: ModelInput):
