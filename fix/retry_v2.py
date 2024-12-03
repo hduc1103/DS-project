@@ -15,28 +15,15 @@ chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 
-start_date = dt(2022, 10, 10)
-end_date = dt(2022, 10, 31)
-station_id = "488200"
-base_url = "https://meteologix.com/vn/observations/vietnam/humidity/{}-{}z.html"
-
-urls = [
-    base_url.format(date.strftime('%Y%m%d'), f"{hour:02d}00")
-    for date in pd.date_range(start_date, end_date)
-    for hour in range(24)
-]
-
-output_file = "humidity/HaNoi_humidity_2022.csv"
-error_log_file = "humidity/failed_urls.txt"
+station_id = "488250"
+input_file = "DS-project/weather_observation/failed_urls.txt"
+output_file = "DS-project/weather_observation/HaNoi_weather_observation_2023.csv"
 batch_size = 100
 
 def initialize_csv():
     if not os.path.exists(output_file):
         df = pd.DataFrame(columns=["date", "station_id", "time", "humidity"])
         df.to_csv(output_file, index=False, mode='w')
-def log_error(url):
-    with open(error_log_file, 'a') as f:
-        f.write(f"{url}\n")
 
 def fetch_data(url):
     print(url)
@@ -69,7 +56,6 @@ def fetch_data(url):
             data.append(station_data)
     except (TimeoutException, WebDriverException) as e:
         print(f"Error fetching data for URL {url}: {e}")
-        log_error(url)  
         time.sleep(10)  
     finally:
         driver.quit()
@@ -82,13 +68,15 @@ def save_batch_to_csv(batch_data):
 initialize_csv() 
 
 batch_data = []
-with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
-    for i, result in enumerate(executor.map(fetch_data, urls), start=1):
-        batch_data.extend(result)
-        
-        if i % batch_size == 0 and batch_data:
-            save_batch_to_csv(batch_data)
-            batch_data.clear() 
+with open(input_file, 'r') as file:
+    urls = file.readlines()
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+        for i, result in enumerate(executor.map(fetch_data, urls), start=1):
+            batch_data.extend(result)
+            
+            if i % batch_size == 0 and batch_data:
+                save_batch_to_csv(batch_data)
+                batch_data.clear()
 
 if batch_data:
     save_batch_to_csv(batch_data)

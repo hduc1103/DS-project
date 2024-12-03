@@ -1,0 +1,421 @@
+date,station_id,time,weather observation
+20240103,488250,07:00am,rain showers departed
+20240103,488250,01:00pm,rain departed
+20240110,488250,07:00pm,intermittent light rain
+20240110,488250,10:00pm,continuous light rain
+20240110,488250,04:00am,continuous light rain
+20240111,488250,07:00am,rain departed
+20240111,488250,10:00am,continuous light drizzle
+20240111,488250,07:00pm,continuous light rain
+20240111,488250,10:00pm,continuous light rain
+20240111,488250,01:00am,continuous light rain
+20240112,488250,07:00pm,continuous light rain
+20240112,488250,10:00pm,continuous light rain
+20240112,488250,04:00am,continuous light rain
+20240113,488250,10:00am,intermittent light drizzle
+20240113,488250,04:00pm,intermittent light drizzle
+20240113,488250,10:00pm,drizzle departed
+20240114,488250,01:00pm,clouds developing
+20240114,488250,10:00am,rain departed
+20240114,488250,10:00pm,continuous light drizzle
+20240114,488250,01:00am,mist
+20240116,488250,07:00am,rain departed
+20240116,488250,07:00pm,continuous light rain
+20240116,488250,10:00pm,clouds developing
+20240117,488250,10:00am,rain departed
+20240117,488250,10:00pm,rain departed
+20240117,488250,01:00am,clouds developing
+20240121,488250,10:00am,continuous light drizzle
+20240121,488250,01:00pm,continuous light drizzle
+20240121,488250,07:00pm,continuous light rain
+20240122,488250,01:00pm,continuous light rain
+20240122,488250,04:00pm,clouds developing
+20240122,488250,07:00pm,clouds developing
+20240123,488250,10:00am,rain departed
+20240123,488250,01:00pm,clouds developing
+20240126,488250,01:00am,intermittent light rain
+20240129,488250,07:00am,clouds developing
+20240129,488250,10:00am,clouds developing
+20240129,488250,01:00pm,clouds developing
+20240130,488250,10:00am,mist
+20240202,488250,01:00pm,clouds developing
+20240202,488250,01:00am,continuous light rain
+20240206,488250,10:00am,intermittent light drizzle
+20240206,488250,01:00pm,clouds developing
+20240207,488250,07:00am,continuous light drizzle
+20240207,488250,10:00am,clouds developing
+20240207,488250,01:00pm,clouds developing
+20240207,488250,10:00pm,continuous light drizzle
+20240207,488250,01:00am,clouds developing
+20240212,488250,07:00am,mist
+20240212,488250,04:00am,mist
+20240215,488250,10:00pm,mist
+20240220,488250,07:00pm,intermittent light drizzle
+20240220,488250,01:00am,clouds developing
+20240221,488250,07:00am,mist
+20240222,488250,10:00am,drizzle departed
+20240223,488250,10:00pm,continuous light drizzle
+20240224,488250,04:00pm,continuous light drizzle
+20240224,488250,07:00pm,continuous light drizzle
+20240224,488250,04:00am,continuous light drizzle
+20240224,488250,01:00am,continuous light rain
+20240225,488250,07:00am,clouds developing
+20240226,488250,10:00am,continuous light drizzle
+20240226,488250,01:00pm,clouds developing
+20240226,488250,04:00am,continuous light rain
+20240227,488250,07:00am,continuous light drizzle
+20240227,488250,10:00am,clouds developing
+20240227,488250,01:00pm,clouds developing
+20240228,488250,10:00am,mist
+20240228,488250,01:00pm,clouds developing
+20240229,488250,10:00am,drizzle departed
+20240229,488250,01:00pm,clouds developing
+20240304,488250,10:00am,continuous light drizzle
+20240309,488250,01:00pm,clouds developing
+20240309,488250,10:00pm,continuous light drizzle
+20240309,488250,04:00am,rain departed
+20240310,488250,07:00am,continuous light drizzle
+20240310,488250,10:00am,clouds developing
+20240310,488250,01:00pm,clouds developing
+20240310,488250,10:00pm,drizzle departed
+20240310,488250,01:00am,clouds developing
+20240312,488250,10:00am,mist
+20240314,488250,10:00am,continuous light drizzle
+20240316,488250,01:00pm,clouds developing
+20240318,488250,01:00pm,clouds developing
+20240318,488250,10:00am,clouds developing
+20240319,488250,04:00pm,clouds developing
+20240319,488250,01:00am,clouds developing
+20240328,488250,04:00pm,thunderstorm nearby
+20240328,488250,07:00pm,clouds developing
+20240405,488250,07:00pm,continuous light drizzle
+20240405,488250,01:00am,clouds developing
+20240406,488250,01:00pm,clouds developing
+20240406,488250,10:00am,clouds developing
+20240408,488250,07:00am,continuous light drizzle
+20240408,488250,10:00am,clouds developing
+20240408,488250,01:00pm,clouds developing
+20240409,488250,10:00am,continuous light drizzle
+20240409,488250,01:00pm,clouds developing
+20240415,488250,01:00pm,clouds developing
+20240417,488250,01:00am,clouds developing
+20240418,488250,01:00pm,decreasing cloudiness
+20240418,488250,10:00am,clouds developing
+20240420,488250,07:00pm,light to moderate thunderstorm with rain or snow
+20240420,488250,10:00pm,light to moderate thunderstorm with rain or snow
+20240420,488250,01:00am,clouds developing
+20240423,488250,01:00am,thunderstorm nearby
+20240423,488250,04:00am,rain departed
+20240424,488250,10:00am,-
+20240424,488250,01:00pm,clouds developing
+20240424,488250,07:00pm,rain showers departed
+20240501,488250,10:00pm,clouds developing
+20240501,488250,01:00am,clouds developing
+20240501,488250,04:00am,rain departed
+20240502,488250,07:00am,clouds developing
+20240502,488250,10:00am,intermittent light rain
+20240502,488250,01:00pm,clouds developing
+20240503,488250,10:00am,clouds developing
+20240503,488250,01:00pm,clouds developing
+20240423,488250,01:00am,thunderstorm nearby
+20240423,488250,04:00am,rain departed
+20240424,488250,10:00am,-
+20240424,488250,01:00pm,clouds developing
+20240424,488250,07:00pm,rain showers departed
+20240501,488250,10:00pm,clouds developing
+20240501,488250,01:00am,clouds developing
+20240501,488250,04:00am,rain departed
+20240502,488250,07:00am,clouds developing
+20240502,488250,10:00am,intermittent light rain
+20240502,488250,01:00pm,clouds developing
+20240502,488250,04:00am,clouds developing
+20240503,488250,10:00am,clouds developing
+20240503,488250,01:00pm,clouds developing
+20240505,488250,10:00pm,clouds developing
+20240505,488250,01:00am,clouds developing
+20240505,488250,04:00am,continuous light rain
+20240506,488250,07:00am,clouds developing
+20240506,488250,01:00pm,clouds developing
+20240507,488250,04:00pm,rain departed
+20240507,488250,07:00pm,clouds developing
+20240508,488250,10:00am,intermittent light rain
+20240509,488250,10:00am,clouds developing
+20240509,488250,01:00pm,clouds developing
+20240509,488250,07:00pm,clouds developing
+20240509,488250,04:00pm,light rain showers
+20240509,488250,10:00pm,clouds developing
+20240509,488250,01:00am,intermittent light rain
+20240512,488250,07:00pm,rain departed
+20240512,488250,04:00am,decreasing cloudiness
+20240513,488250,07:00am,clouds developing
+20240515,488250,10:00pm,continuous light rain
+20240515,488250,01:00am,thunderstorm nearby
+20240515,488250,04:00am,clouds developing
+20240519,488250,10:00am,continuous light rain
+20240519,488250,01:00pm,clouds developing
+20240519,488250,10:00pm,clouds developing
+20240519,488250,01:00am,clouds developing
+20240519,488250,04:00am,moderate or heavy rain showers
+20240520,488250,07:00am,clouds developing
+20240522,488250,10:00pm,moderate or heavy rain showers
+20240522,488250,01:00am,clouds developing
+20240523,488250,10:00am,continuous light rain
+20240523,488250,01:00pm,clouds developing
+20240524,488250,01:00am,clouds developing
+20240525,488250,10:00am,clouds developing
+20240525,488250,01:00pm,clouds developing
+20240526,488250,07:00am,clouds developing
+20240527,488250,07:00am,clouds developing
+20240530,488250,04:00pm,rain showers departed
+20240530,488250,07:00pm,light to moderate thunderstorm with rain or snow
+20240531,488250,10:00am,continuous light rain
+20240602,488250,04:00am,mist
+20240603,488250,04:00am,continuous light rain
+20240604,488250,07:00am,clouds developing
+20240604,488250,04:00pm,thunderstorm nearby
+20240604,488250,07:00pm,"thunderstorm in past hour, currently only light rain"
+20240604,488250,10:00pm,clouds developing
+20240605,488250,01:00pm,clouds developing
+20240606,488250,01:00pm,clouds developing
+20240607,488250,07:00pm,thunderstorm nearby
+20240607,488250,10:00pm,continuous light rain
+20240607,488250,01:00am,clouds developing
+20240608,488250,07:00am,rain departed
+20240609,488250,04:00am,moderate or heavy rain showers
+20240610,488250,10:00am,rain departed
+20240610,488250,01:00pm,clouds developing
+20240610,488250,07:00pm,light to moderate thunderstorm with rain or snow
+20240611,488250,07:00pm,thunderstorm nearby
+20240611,488250,10:00pm,clouds developing
+20240611,488250,01:00am,decreasing cloudiness
+20240616,488250,10:00pm,continuous light rain
+20240616,488250,04:00am,clouds developing
+20240617,488250,10:00pm,light to moderate thunderstorm with rain or snow
+20240617,488250,01:00am,continuous light rain
+20240617,488250,04:00am,clouds developing
+20240618,488250,07:00am,clouds developing
+20240619,488250,01:00am,clouds developing
+20240621,488250,07:00am,clouds developing
+20240621,488250,04:00pm,rain showers departed
+20240621,488250,07:00pm,decreasing cloudiness
+20240623,488250,01:00pm,clouds developing
+20240623,488250,04:00pm,moderate or heavy rain showers
+20240623,488250,07:00pm,clouds developing
+20240623,488250,01:00am,moderate or heavy rain showers
+20240624,488250,07:00am,moderate or heavy rain showers
+20240624,488250,10:00am,continuous light rain
+20240624,488250,01:00pm,clouds developing
+20240624,488250,07:00pm,continuous light rain
+20240624,488250,01:00am,clouds developing
+20240625,488250,07:00am,rain departed
+20240625,488250,04:00pm,clouds developing
+20240625,488250,07:00pm,clouds developing
+20240625,488250,10:00pm,thunderstorm nearby
+20240625,488250,04:00am,rain showers departed
+20240626,488250,07:00am,clouds developing
+20240626,488250,01:00pm,rain departed
+20240626,488250,01:00am,thunderstorm nearby
+20240627,488250,10:00am,clouds developing
+20240627,488250,01:00pm,clouds developing
+20240627,488250,01:00am,clouds developing
+20240627,488250,04:00am,decreasing cloudiness
+20240628,488250,07:00am,clouds developing
+20240628,488250,01:00am,"lightning visible, no thunder heard"
+20240629,488250,07:00pm,light to moderate thunderstorm with rain or snow
+20240629,488250,10:00pm,clouds developing
+20240629,488250,01:00am,clouds developing
+20240702,488250,10:00pm,rain departed
+20240703,488250,01:00pm,continuous light rain
+20240703,488250,04:00pm,clouds developing
+20240703,488250,07:00pm,clouds developing
+20240704,488250,07:00am,rain departed
+20240708,488250,07:00pm,thunderstorms departed
+20240709,488250,07:00pm,moderate or heavy rain showers
+20240709,488250,01:00am,cloudiness unchanged
+20240711,488250,01:00am,clouds developing
+20240711,488250,04:00am,thunderstorm nearby
+20240712,488250,07:00am,clouds developing
+20240712,488250,01:00am,clouds developing
+20240713,488250,10:00am,clouds developing
+20240713,488250,01:00pm,clouds developing
+20240714,488250,10:00am,continuous light rain
+20240714,488250,01:00pm,clouds developing
+20240714,488250,10:00pm,light to moderate thunderstorm with rain or snow
+20240714,488250,01:00am,clouds developing
+20240714,488250,04:00am,clouds developing
+20240715,488250,07:00am,clouds developing
+20240715,488250,04:00pm,rain showers departed
+20240715,488250,07:00pm,rain showers departed
+20240715,488250,01:00am,light to moderate thunderstorm with rain or snow
+20240715,488250,04:00am,rain departed
+20240716,488250,07:00am,clouds developing
+20240716,488250,01:00pm,thunderstorm nearby
+20240716,488250,04:00pm,clouds developing
+20240717,488250,07:00am,clouds developing
+20240717,488250,01:00pm,clouds developing
+20240717,488250,10:00am,clouds developing
+20240717,488250,10:00pm,clouds developing
+20240717,488250,04:00am,clouds developing
+20240718,488250,01:00pm,clouds developing
+20240719,488250,07:00am,"thunderstorm in past hour, currently only light rain"
+20240719,488250,10:00am,intermittent light rain
+20240719,488250,01:00pm,clouds developing
+20240720,488250,10:00am,clouds developing
+20240720,488250,07:00am,light to moderate thunderstorm with rain or snow
+20240720,488250,01:00pm,clouds developing
+20240721,488250,07:00pm,"lightning visible, no thunder heard"
+20240721,488250,01:00am,clouds developing
+20240722,488250,10:00pm,clouds developing
+20240722,488250,01:00am,clouds developing
+20240724,488250,07:00am,continuous light rain
+20240724,488250,10:00am,clouds developing
+20240724,488250,01:00pm,clouds developing
+20240724,488250,10:00pm,continuous light rain
+20240724,488250,01:00am,rain departed
+20240725,488250,04:00pm,clouds developing
+20240725,488250,07:00pm,clouds developing
+20240728,488250,07:00am,intermittent light rain
+20240728,488250,04:00am,rain departed
+20240729,488250,07:00pm,continuous light rain
+20240729,488250,10:00pm,rain departed
+20240729,488250,01:00am,clouds developing
+20240730,488250,10:00am,clouds developing
+20240730,488250,01:00pm,clouds developing
+20240730,488250,01:00am,clouds developing
+20240801,488250,07:00am,intermittent light rain
+20240801,488250,01:00pm,clouds developing
+20240802,488250,01:00pm,continuous light rain
+20240802,488250,10:00am,intermittent light rain
+20240802,488250,07:00pm,clouds developing
+20240806,488250,07:00pm,clouds developing
+20240808,488250,07:00pm,thunderstorm nearby
+20240808,488250,10:00pm,decreasing cloudiness
+20240808,488250,01:00am,cloudiness unchanged
+20240812,488250,07:00pm,"lightning visible, no thunder heard"
+20240813,488250,10:00am,clouds developing
+20240813,488250,01:00pm,clouds developing
+20240814,488250,07:00am,clouds developing
+20240817,488250,04:00pm,light to moderate thunderstorm with rain or snow
+20240817,488250,07:00pm,clouds developing
+20240818,488250,04:00pm,clouds developing
+20240818,488250,07:00pm,clouds developing
+20240819,488250,01:00pm,clouds developing
+20240819,488250,01:00am,continuous light rain
+20240819,488250,04:00am,clouds developing
+20240820,488250,07:00am,clouds developing
+20240820,488250,10:00pm,continuous light rain
+20240820,488250,07:00pm,light to moderate thunderstorm with rain or snow
+20240820,488250,01:00am,clouds developing
+20240821,488250,07:00pm,clouds developing
+20240823,488250,01:00pm,clouds developing
+20240823,488250,04:00am,clouds developing
+20240824,488250,01:00am,clouds developing
+20240824,488250,04:00am,intermittent light rain
+20240826,488250,07:00pm,light to moderate thunderstorm with rain or snow
+20240826,488250,10:00pm,clouds developing
+20240826,488250,01:00am,clouds developing
+20240829,488250,01:00pm,thunderstorm nearby
+20240829,488250,04:00pm,clouds developing
+20240829,488250,07:00pm,clouds developing
+20240829,488250,01:00am,"lightning visible, no thunder heard"
+20240829,488250,04:00am,continuous heavy rain
+20240830,488250,10:00am,"thunderstorm in past hour, currently moderate to heavy rain"
+20240830,488250,01:00pm,clouds developing
+20240831,488250,10:00pm,decreasing cloudiness
+20240831,488250,01:00am,cloudiness unchanged
+20240901,488250,07:00am,rain departed
+20240901,488250,10:00am,rain showers departed
+20240901,488250,01:00pm,clouds developing
+20240902,488250,04:00pm,thunderstorms departed
+20240902,488250,07:00pm,decreasing cloudiness
+20240903,488250,10:00am,clouds developing
+20240903,488250,01:00pm,clouds developing
+20240905,488250,10:00pm,rain showers departed
+20240905,488250,01:00am,clouds developing
+20240906,488250,07:00pm,clouds developing
+20240906,488250,10:00pm,clouds developing
+20240906,488250,01:00am,clouds developing
+20240907,488250,04:00am,intermittent light rain
+20240908,488250,01:00pm,clouds developing
+20240908,488250,07:00pm,clouds developing
+20240910,488250,10:00am,rain departed
+20240910,488250,01:00pm,light rain showers
+20240911,488250,04:00pm,continuous light rain
+20240911,488250,07:00pm,rain departed
+20240912,488250,10:00pm,continuous light rain
+20240912,488250,01:00am,rain departed
+20240914,488250,04:00pm,clouds developing
+20240914,488250,07:00pm,thunderstorm nearby
+20240914,488250,10:00pm,clouds developing
+20240914,488250,01:00am,clouds developing
+20240915,488250,07:00am,mist
+20240916,488250,10:00am,clouds developing
+20240916,488250,01:00pm,clouds developing
+20240916,488250,07:00pm,rain departed
+20240916,488250,04:00am,rain departed
+20240917,488250,07:00am,clouds developing
+20240917,488250,04:00pm,rain departed
+20240917,488250,07:00pm,clouds developing
+20240918,488250,07:00am,clouds developing
+20240918,488250,10:00am,clouds developing
+20240918,488250,01:00pm,clouds developing
+20240918,488250,07:00pm,"lightning visible, no thunder heard"
+20240919,488250,07:00pm,intermittent light rain
+20240919,488250,10:00pm,clouds developing
+20240919,488250,01:00am,clouds developing
+20240920,488250,07:00am,clouds developing
+20240920,488250,04:00pm,rain departed
+20240920,488250,07:00pm,clouds developing
+20240920,488250,10:00pm,clouds developing
+20240920,488250,01:00am,rain showers departed
+20240921,488250,07:00am,rain departed
+20240921,488250,04:00pm,clouds developing
+20240921,488250,10:00pm,clouds developing
+20240922,488250,10:00am,continuous light rain
+20240922,488250,07:00pm,rain departed
+20240923,488250,07:00am,clouds developing
+20240923,488250,10:00am,clouds developing
+20240923,488250,01:00pm,clouds developing
+20240928,488250,01:00pm,clouds developing
+20240928,488250,07:00pm,clouds developing
+20240929,488250,10:00pm,continuous light rain
+20240929,488250,01:00am,clouds developing
+20240930,488250,04:00am,thunderstorm nearby
+20241001,488250,07:00am,continuous light rain
+20241001,488250,10:00am,clouds developing
+20241001,488250,04:00pm,light rain showers
+20241001,488250,07:00pm,clouds developing
+20241001,488250,01:00pm,clouds developing
+20241001,488250,10:00pm,clouds developing
+20241001,488250,01:00am,clouds developing
+20241006,488250,07:00am,mist
+20241010,488250,10:00am,mist
+20241011,488250,10:00am,mist
+20241015,488250,01:00pm,clouds developing
+20241015,488250,10:00am,continuous light rain
+20241015,488250,04:00pm,rain departed
+20241016,488250,07:00am,clouds developing
+20241019,488250,04:00pm,clouds developing
+20241019,488250,07:00pm,decreasing cloudiness
+20241020,488250,07:00am,mist
+20241020,488250,04:00am,continuous light rain
+20241021,488250,07:00am,rain departed
+20241021,488250,07:00am,rain departed
+20241021,488250,04:00pm,rain showers departed
+20241021,488250,07:00pm,decreasing cloudiness
+20241024,488250,07:00am,mist
+20241025,488250,07:00am,mist
+20241027,488250,01:00pm,clouds developing
+20241027,488250,04:00pm,continuous light rain
+20241027,488250,01:00am,rain departed
+20241028,488250,01:00pm,clouds developing
+20241029,488250,07:00am,continuous light rain
+20241029,488250,10:00am,clouds developing
+20241029,488250,01:00pm,clouds developing
+20241031,488250,04:00am,mist
+20241102,488250,07:00am,mist
+20241103,488250,07:00am,mist
+20241105,488250,10:00pm,clouds developing
+20241109,488250,04:00am,mist
+20241111,488250,07:00am,mist
+20241115,488250,10:00am,mist

@@ -12,12 +12,12 @@ chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 
 station_id = "488250"
-input_file = "wind_direction/failed_missed_url.txt"
-output_file = "wind_direction/HaDongretry.csv"
+input_file = "wind_speed/failed_urls.txt"
+output_file = "wind_speed/HaNoi_wind_speed_2023.csv"
 
 def initialize_csv():
     if not os.path.exists(output_file):
-        df = pd.DataFrame(columns=["date", "station_id", "time", "temperature"])
+        df = pd.DataFrame(columns=["date", "station_id", "time", "humidity"])
         df.to_csv(output_file, index=False, mode='w')
 
 def fetch_data(url):
@@ -39,12 +39,12 @@ def fetch_data(url):
             parts = title.split('|')
             if len(parts) >= 3:
                 time_value = parts[2].strip()
-                temperature = parts[0].strip()
-                station_data.update({"time": time_value, "temperature": temperature})
+                humidity = parts[0].strip()
+                station_data.update({"time": time_value, "humidity": humidity})
             else:
-                station_data.update({"time": None, "temperature": None})
+                station_data.update({"time": None, "humidity": None})
         else:
-            station_data.update({"time": None, "temperature": None})
+            station_data.update({"time": None, "humidity": None})
         data.append(station_data)
 
     driver.quit()

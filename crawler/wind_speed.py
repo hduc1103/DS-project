@@ -84,7 +84,7 @@ def save_batch_to_csv(batch_data):
 initialize_csv() 
 
 batch_data = []
-with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
     for i, result in enumerate(executor.map(fetch_data, urls), start=1):
         batch_data.extend(result)
         

@@ -154,7 +154,6 @@ date,station_id,time,wind direction
 20230107,488200,08:00am,low winds from changing directions
 20230107,488200,09:00am,west-northwest (290°)
 20230107,488200,10:00am,northwest (310°)
-20230107,488200,10:00am,northwest (310°)
 20230107,488200,11:00am,northwest (320°)
 20230107,488200,12:00pm,north-northeast (20°)
 20230107,488200,01:00pm,low winds from changing directions
@@ -626,7 +625,6 @@ date,station_id,time,wind direction
 20230126,488200,11:00pm,north-northwest (340°)
 20230127,488200,12:00am,east-northeast (70°)
 20230127,488200,01:00am,east-northeast (60°)
-20230127,488200,01:00am,east-northeast (60°)
 20230127,488200,02:00am,east-northeast (60°)
 20230127,488200,03:00am,east-northeast (60°)
 20230127,488200,04:00am,northeast (50°)
@@ -726,7 +724,6 @@ date,station_id,time,wind direction
 20230131,488200,02:00am,east (90°)
 20230131,488200,03:00am,east (90°)
 20230131,488200,04:00am,east (90°)
-20230131,488200,04:00am,east (90°)
 20230131,488200,05:00am,east (100°)
 20230131,488200,06:00am,east (80°)
 20230131,488200,07:00am,east-northeast (70°)
@@ -784,7 +781,6 @@ date,station_id,time,wind direction
 20230202,488200,12:00pm,west-northwest (300°)
 20230202,488200,01:00pm,northwest (320°)
 20230202,488200,02:00pm,low winds from changing directions
-20230202,488200,03:00pm,southeast (130°)
 20230202,488200,03:00pm,southeast (130°)
 20230202,488200,04:00pm,south-southeast (160°)
 20230202,488200,05:00pm,southeast (140°)
@@ -1072,7 +1068,6 @@ date,station_id,time,wind direction
 20230214,488200,11:00am,northeast (50°)
 20230214,488200,12:00pm,northeast (50°)
 20230214,488250,01:00pm,north (360°)
-20230214,488250,01:00pm,north (360°)
 20230214,488200,02:00pm,north-northeast (30°)
 20230214,488200,03:00pm,north-northeast (20°)
 20230214,488200,04:00pm,north-northeast (20°)
@@ -1129,7 +1124,6 @@ date,station_id,time,wind direction
 20230216,488200,07:00pm,north-northeast (30°)
 20230216,488200,08:00pm,northeast (50°)
 20230216,488200,09:00pm,low winds from changing directions
-20230216,488200,10:00pm,north-northeast (30°)
 20230216,488200,10:00pm,north-northeast (30°)
 20230216,488200,11:00pm,east-northeast (60°)
 20230217,488200,12:00am,southeast (130°)
@@ -1211,8 +1205,6 @@ date,station_id,time,wind direction
 20230220,488200,04:00am,north (10°)
 20230220,488200,05:00am,calm
 20230220,488200,06:00am,low winds from changing directions
-20230220,488200,06:00am,low winds from changing directions
-20230220,488200,07:00am,north (360°)
 20230220,488200,07:00am,north (360°)
 20230220,488200,08:00am,north (360°)
 20230220,488200,09:00am,north-northeast (20°)
@@ -1679,7 +1671,6 @@ date,station_id,time,wind direction
 20230311,488200,04:00pm,low winds from changing directions
 20230311,488200,05:00pm,southeast (140°)
 20230311,488200,06:00pm,south (170°)
-20230311,488200,06:00pm,south (170°)
 20230311,488200,07:00pm,east-southeast (120°)
 20230311,488200,08:00pm,low winds from changing directions
 20230311,488200,09:00pm,calm
@@ -1702,7 +1693,6 @@ date,station_id,time,wind direction
 20230312,488200,03:00pm,north (350°)
 20230312,488200,04:00pm,north-northeast (20°)
 20230312,488200,05:00pm,north-northeast (20°)
-20230312,488200,06:00pm,low winds from changing directions
 20230312,488200,06:00pm,low winds from changing directions
 20230312,488200,07:00pm,low winds from changing directions
 20230312,488200,08:00pm,north-northeast (20°)
@@ -1732,7 +1722,6 @@ date,station_id,time,wind direction
 20230313,488200,08:00pm,northwest (320°)
 20230313,488200,09:00pm,low winds from changing directions
 20230313,488200,10:00pm,low winds from changing directions
-20230313,488200,10:00pm,low winds from changing directions
 20230313,488200,11:00pm,northwest (320°)
 20230314,488200,12:00am,east (100°)
 20230314,488200,01:00am,east (90°)
@@ -1759,17 +1748,13 @@ date,station_id,time,wind direction
 20230314,488200,10:00pm,east-southeast (120°)
 20230314,488200,11:00pm,east-southeast (120°)
 20230315,488200,12:00am,southeast (140°)
-20230315,488200,12:00am,southeast (140°)
 20230315,488250,01:00am,south (180°)
 20230315,488200,03:00am,east-southeast (120°)
-20230315,488200,03:00am,east-southeast (120°)
-20230315,488200,04:00am,southeast (130°)
 20230315,488200,04:00am,southeast (130°)
 20230315,488200,05:00am,east-southeast (120°)
 20230315,488200,06:00am,east (100°)
 20230315,488200,07:00am,low winds from changing directions
 20230315,488200,08:00am,east-southeast (120°)
-20230315,488200,09:00am,southeast (140°)
 20230315,488200,09:00am,southeast (140°)
 20230315,488200,10:00am,west-southwest (250°)
 20230315,488200,11:00am,west-southwest (240°)
@@ -1778,7 +1763,6 @@ date,station_id,time,wind direction
 20230315,488200,04:00pm,low winds from changing directions
 20230315,488200,06:00pm,east-southeast (110°)
 20230315,488250,07:00pm,southeast (140°)
-20230315,488200,10:00pm,southeast (130°)
 20230315,488200,10:00pm,southeast (130°)
 20230315,488200,11:00pm,southeast (130°)
 20230316,488200,12:00am,southeast (130°)
@@ -1795,8 +1779,6 @@ date,station_id,time,wind direction
 20230316,488200,01:00pm,south-southeast (150°)
 20230316,488200,02:00pm,south-southeast (160°)
 20230316,488200,03:00pm,south-southeast (150°)
-20230316,488200,03:00pm,south-southeast (150°)
-20230316,488250,04:00pm,southeast (140°)
 20230316,488250,04:00pm,southeast (140°)
 20230316,488200,05:00pm,southeast (140°)
 20230316,488200,06:00pm,southeast (140°)
@@ -2211,7 +2193,6 @@ date,station_id,time,wind direction
 20230402,488200,07:00pm,east (90°)
 20230402,488200,08:00pm,east-southeast (120°)
 20230402,488200,09:00pm,southeast (130°)
-20230402,488200,10:00pm,east-southeast (110°)
 20230402,488200,10:00pm,east-southeast (110°)
 20230402,488200,11:00pm,east-southeast (110°)
 20230403,488200,12:00am,east-southeast (110°)
@@ -2807,7 +2788,6 @@ date,station_id,time,wind direction
 20230427,488200,03:00pm,east-southeast (110°)
 20230427,488200,04:00pm,east-southeast (110°)
 20230427,488200,05:00pm,east (100°)
-20230427,488200,06:00pm,east-southeast (110°)
 20230427,488200,06:00pm,east-southeast (110°)
 20230427,488200,07:00pm,east-southeast (120°)
 20230427,488200,08:00pm,southeast (130°)
@@ -3912,7 +3892,6 @@ date,station_id,time,wind direction
 20230612,488200,04:00pm,east (90°)
 20230612,488200,05:00pm,southeast (130°)
 20230612,488200,06:00pm,south-southeast (150°)
-20230612,488200,06:00pm,south-southeast (150°)
 20230612,488200,07:00pm,east-southeast (120°)
 20230612,488200,08:00pm,east-southeast (110°)
 20230612,488200,09:00pm,east-southeast (110°)
@@ -3962,7 +3941,6 @@ date,station_id,time,wind direction
 20230614,488200,06:00pm,north (10°)
 20230614,488200,07:00pm,north-northwest (330°)
 20230614,488200,08:00pm,northwest (320°)
-20230614,488200,09:00pm,low winds from changing directions
 20230614,488200,09:00pm,low winds from changing directions
 20230614,488200,10:00pm,low winds from changing directions
 20230614,488200,11:00pm,south (170°)
@@ -4036,7 +4014,6 @@ date,station_id,time,wind direction
 20230617,488200,07:00pm,southwest (220°)
 20230617,488200,08:00pm,east (100°)
 20230617,488200,09:00pm,northeast (50°)
-20230617,488200,10:00pm,northeast (50°)
 20230617,488200,10:00pm,northeast (50°)
 20230617,488200,11:00pm,east (80°)
 20230618,488200,12:00am,east-southeast (120°)
@@ -4162,7 +4139,6 @@ date,station_id,time,wind direction
 20230623,488200,12:00am,southeast (140°)
 20230623,488200,01:00am,southeast (130°)
 20230623,488200,02:00am,east-southeast (120°)
-20230623,488200,03:00am,low winds from changing directions
 20230623,488200,03:00am,low winds from changing directions
 20230623,488200,04:00am,east-northeast (70°)
 20230623,488200,05:00am,east (80°)
@@ -4382,7 +4358,6 @@ date,station_id,time,wind direction
 20230702,488200,04:00am,southeast (130°)
 20230702,488200,05:00am,east (80°)
 20230702,488200,06:00am,northeast (40°)
-20230702,488200,06:00am,northeast (40°)
 20230702,488200,07:00am,east (90°)
 20230702,488200,08:00am,east (80°)
 20230702,488200,09:00am,east (90°)
@@ -4551,7 +4526,6 @@ date,station_id,time,wind direction
 20230709,488200,06:00am,east-northeast (70°)
 20230709,488200,07:00am,east-southeast (120°)
 20230709,488200,08:00am,east (100°)
-20230709,488200,09:00am,southeast (130°)
 20230709,488200,09:00am,southeast (130°)
 20230709,488200,10:00am,south-southeast (150°)
 20230709,488200,11:00am,south (190°)
@@ -5038,7 +5012,6 @@ date,station_id,time,wind direction
 20230729,488200,01:00pm,low winds from changing directions
 20230729,488200,02:00pm,low winds from changing directions
 20230729,488200,03:00pm,north (360°)
-20230729,488200,03:00pm,north (360°)
 20230729,488200,04:00pm,east-northeast (70°)
 20230729,488200,05:00pm,east (90°)
 20230729,488200,06:00pm,low winds from changing directions
@@ -5118,12 +5091,10 @@ date,station_id,time,wind direction
 20230801,488200,08:00pm,northeast (40°)
 20230801,488200,09:00pm,low winds from changing directions
 20230801,488200,10:00pm,low winds from changing directions
-20230801,488200,10:00pm,low winds from changing directions
 20230801,488200,11:00pm,north-northwest (330°)
 20230802,488200,12:00am,northeast (40°)
 20230802,488200,01:00am,northeast (40°)
 20230802,488200,02:00am,low winds from changing directions
-20230802,488200,03:00am,east (100°)
 20230802,488200,03:00am,east (100°)
 20230802,488200,04:00am,north (350°)
 20230802,488200,05:00am,north (350°)
@@ -5162,7 +5133,6 @@ date,station_id,time,wind direction
 20230803,488200,04:00pm,north-northeast (20°)
 20230803,488200,05:00pm,north (360°)
 20230803,488200,06:00pm,north-northwest (340°)
-20230803,488200,06:00pm,north-northwest (340°)
 20230803,488200,07:00pm,calm
 20230803,488200,08:00pm,west (260°)
 20230803,488200,09:00pm,west-northwest (300°)
@@ -5174,7 +5144,6 @@ date,station_id,time,wind direction
 20230804,488200,03:00am,low winds from changing directions
 20230804,488200,04:00am,northwest (320°)
 20230804,488200,05:00am,low winds from changing directions
-20230804,488200,06:00am,north-northwest (330°)
 20230804,488200,06:00am,north-northwest (330°)
 20230804,488200,07:00am,low winds from changing directions
 20230804,488200,08:00am,south-southwest (210°)
@@ -5195,7 +5164,6 @@ date,station_id,time,wind direction
 20230805,488200,12:00am,calm
 20230805,488200,01:00am,north-northeast (30°)
 20230805,488200,02:00am,east-northeast (60°)
-20230805,488200,03:00am,east-northeast (60°)
 20230805,488200,03:00am,east-northeast (60°)
 20230805,488200,04:00am,east-northeast (70°)
 20230805,488200,05:00am,northeast (40°)
@@ -5257,7 +5225,6 @@ date,station_id,time,wind direction
 20230807,488200,02:00pm,north (350°)
 20230807,488200,03:00pm,low winds from changing directions
 20230807,488200,04:00pm,south-southeast (160°)
-20230807,488200,04:00pm,south-southeast (160°)
 20230807,488200,05:00pm,south (170°)
 20230807,488200,06:00pm,south (170°)
 20230807,488200,07:00pm,south-southeast (160°)
@@ -5315,7 +5282,6 @@ date,station_id,time,wind direction
 20230809,488200,11:00pm,east-northeast (60°)
 20230810,488200,12:00am,east-northeast (60°)
 20230810,488200,01:00am,east-northeast (60°)
-20230810,488200,01:00am,east-northeast (60°)
 20230810,488200,02:00am,northeast (40°)
 20230810,488200,03:00am,northeast (50°)
 20230810,488200,04:00am,calm
@@ -5369,7 +5335,6 @@ date,station_id,time,wind direction
 20230812,488200,05:00am,north-northwest (330°)
 20230812,488200,06:00am,low winds from changing directions
 20230812,488200,07:00am,northwest (310°)
-20230812,488200,07:00am,northwest (310°)
 20230812,488200,08:00am,low winds from changing directions
 20230812,488200,09:00am,north (350°)
 20230812,488200,10:00am,low winds from changing directions
@@ -5400,7 +5365,6 @@ date,station_id,time,wind direction
 20230813,488200,11:00am,west-northwest (300°)
 20230813,488200,12:00pm,northwest (320°)
 20230813,488200,01:00pm,low winds from changing directions
-20230813,488200,01:00pm,low winds from changing directions
 20230813,488200,02:00pm,low winds from changing directions
 20230813,488200,03:00pm,west (270°)
 20230813,488200,04:00pm,low winds from changing directions
@@ -5421,7 +5385,6 @@ date,station_id,time,wind direction
 20230814,488200,07:00am,southeast (140°)
 20230814,488200,08:00am,east (90°)
 20230814,488200,09:00am,east (90°)
-20230814,488200,10:00am,east (100°)
 20230814,488200,10:00am,east (100°)
 20230814,488200,11:00am,east (80°)
 20230814,488200,12:00pm,east-southeast (110°)
@@ -5445,7 +5408,6 @@ date,station_id,time,wind direction
 20230815,488200,07:00am,northwest (320°)
 20230815,488200,08:00am,northwest (310°)
 20230815,488200,09:00am,west-northwest (300°)
-20230815,488200,09:00am,west-northwest (300°)
 20230815,488200,10:00am,northwest (310°)
 20230815,488200,11:00am,low winds from changing directions
 20230815,488200,12:00pm,north-northwest (340°)
@@ -5468,7 +5430,6 @@ date,station_id,time,wind direction
 20230816,488200,06:00am,east (80°)
 20230816,488200,07:00am,east-northeast (60°)
 20230816,488200,08:00am,northeast (40°)
-20230816,488200,09:00am,northeast (40°)
 20230816,488200,09:00am,northeast (40°)
 20230816,488200,10:00am,east-northeast (70°)
 20230816,488200,11:00am,east (80°)
@@ -5523,7 +5484,6 @@ date,station_id,time,wind direction
 20230818,488200,01:00pm,west-northwest (300°)
 20230818,488200,02:00pm,west (270°)
 20230818,488200,03:00pm,north-northwest (330°)
-20230818,488200,03:00pm,north-northwest (330°)
 20230818,488200,04:00pm,north (350°)
 20230818,488200,05:00pm,east-northeast (60°)
 20230818,488200,06:00pm,northeast (40°)
@@ -5546,13 +5506,11 @@ date,station_id,time,wind direction
 20230819,488200,12:00pm,south (170°)
 20230819,488200,01:00pm,low winds from changing directions
 20230819,488200,03:00pm,low winds from changing directions
-20230819,488200,03:00pm,low winds from changing directions
 20230819,488200,04:00pm,east (90°)
 20230819,488200,05:00pm,southeast (130°)
 20230819,488200,06:00pm,east-northeast (60°)
 20230819,488200,07:00pm,east (80°)
 20230819,488200,08:00pm,east-northeast (60°)
-20230819,488200,09:00pm,east (80°)
 20230819,488200,09:00pm,east (80°)
 20230819,488200,10:00pm,northeast (50°)
 20230819,488200,11:00pm,east (90°)
@@ -5567,7 +5525,6 @@ date,station_id,time,wind direction
 20230820,488200,09:00am,west-northwest (300°)
 20230820,488200,10:00am,west (270°)
 20230820,488200,11:00am,calm
-20230820,488200,12:00pm,southwest (230°)
 20230820,488200,12:00pm,southwest (230°)
 20230820,488200,01:00pm,south-southwest (200°)
 20230820,488200,02:00pm,south-southwest (210°)
@@ -5683,7 +5640,6 @@ date,station_id,time,wind direction
 20230825,488200,04:00am,northeast (40°)
 20230825,488200,05:00am,east-northeast (60°)
 20230825,488200,06:00am,east-northeast (60°)
-20230825,488200,06:00am,east-northeast (60°)
 20230825,488200,07:00am,low winds from changing directions
 20230825,488200,09:00am,low winds from changing directions
 20230825,488200,10:00am,east (80°)
@@ -5691,7 +5647,6 @@ date,station_id,time,wind direction
 20230825,488200,12:00pm,east-northeast (60°)
 20230825,488200,01:00pm,low winds from changing directions
 20230825,488200,02:00pm,south-southeast (160°)
-20230825,488200,03:00pm,east-southeast (120°)
 20230825,488200,03:00pm,east-southeast (120°)
 20230825,488200,04:00pm,east (90°)
 20230825,488200,05:00pm,east (90°)
@@ -5760,11 +5715,9 @@ date,station_id,time,wind direction
 20230828,488200,10:00am,west-northwest (290°)
 20230828,488200,11:00am,west-northwest (300°)
 20230828,488200,12:00pm,northwest (310°)
-20230828,488200,12:00pm,northwest (310°)
 20230828,488200,01:00pm,northwest (320°)
 20230828,488200,02:00pm,north-northwest (330°)
 20230828,488200,03:00pm,west-northwest (290°)
-20230828,488200,04:00pm,north-northwest (340°)
 20230828,488200,04:00pm,north-northwest (340°)
 20230828,488200,05:00pm,low winds from changing directions
 20230828,488200,06:00pm,southwest (220°)
@@ -5773,7 +5726,6 @@ date,station_id,time,wind direction
 20230828,488200,09:00pm,north-northwest (340°)
 20230828,488200,10:00pm,low winds from changing directions
 20230828,488200,11:00pm,low winds from changing directions
-20230829,488200,12:00am,calm
 20230829,488200,12:00am,calm
 20230829,488200,01:00am,north (360°)
 20230829,488200,02:00am,north (10°)
@@ -5874,10 +5826,8 @@ date,station_id,time,wind direction
 20230902,488200,02:00am,low winds from changing directions
 20230902,488200,03:00am,northwest (310°)
 20230902,488200,04:00am,calm
-20230902,488200,04:00am,calm
 20230902,488200,05:00am,east (100°)
 20230902,488200,06:00am,low winds from changing directions
-20230902,488200,07:00am,northwest (310°)
 20230902,488200,07:00am,northwest (310°)
 20230902,488200,08:00am,northwest (320°)
 20230902,488200,09:00am,west-northwest (300°)
@@ -5954,7 +5904,6 @@ date,station_id,time,wind direction
 20230905,488200,09:00am,west-northwest (290°)
 20230905,488200,10:00am,low winds from changing directions
 20230905,488200,11:00am,north (360°)
-20230905,488200,12:00pm,north (360°)
 20230905,488200,12:00pm,north (360°)
 20230905,488200,01:00pm,north (10°)
 20230905,488200,02:00pm,north (360°)
@@ -6070,7 +6019,6 @@ date,station_id,time,wind direction
 20230910,488200,04:00am,north-northwest (330°)
 20230910,488200,05:00am,low winds from changing directions
 20230910,488200,06:00am,east-northeast (70°)
-20230910,488200,06:00am,east-northeast (70°)
 20230910,488200,07:00am,low winds from changing directions
 20230910,488200,08:00am,west-northwest (300°)
 20230910,488200,09:00am,northwest (310°)
@@ -6143,7 +6091,6 @@ date,station_id,time,wind direction
 20230913,488200,05:00am,northwest (310°)
 20230913,488200,06:00am,north-northwest (330°)
 20230913,488200,07:00am,west-northwest (300°)
-20230913,488200,07:00am,west-northwest (300°)
 20230913,488200,08:00am,west-northwest (300°)
 20230913,488200,09:00am,west-northwest (300°)
 20230913,488200,10:00am,west-northwest (290°)
@@ -6177,7 +6124,6 @@ date,station_id,time,wind direction
 20230914,488200,02:00pm,northwest (320°)
 20230914,488200,03:00pm,northwest (310°)
 20230914,488200,04:00pm,west-northwest (290°)
-20230914,488200,04:00pm,west-northwest (290°)
 20230914,488200,05:00pm,west-northwest (290°)
 20230914,488200,06:00pm,west-northwest (300°)
 20230914,488200,07:00pm,west (280°)
@@ -6187,7 +6133,6 @@ date,station_id,time,wind direction
 20230914,488200,11:00pm,west-northwest (300°)
 20230915,488200,12:00am,calm
 20230915,488200,01:00am,northwest (320°)
-20230915,488200,01:00am,northwest (320°)
 20230915,488200,02:00am,northwest (320°)
 20230915,488200,03:30am,northwest (310°)
 20230915,488200,04:00am,west-northwest (300°)
@@ -6196,9 +6141,7 @@ date,station_id,time,wind direction
 20230915,488200,08:00am,west-northwest (290°)
 20230915,488200,09:00am,north-northwest (330°)
 20230915,488200,10:00am,north-northwest (340°)
-20230915,488200,10:00am,north-northwest (340°)
 20230915,488200,11:00am,north (350°)
-20230915,488200,12:00pm,north (350°)
 20230915,488200,12:00pm,north (350°)
 20230915,488200,01:00pm,north (350°)
 20230915,488200,02:00pm,north-northwest (330°)
@@ -6252,7 +6195,6 @@ date,station_id,time,wind direction
 20230917,488200,02:00pm,northeast (50°)
 20230917,488200,03:00pm,east-southeast (110°)
 20230917,488200,04:00pm,low winds from changing directions
-20230917,488200,04:00pm,low winds from changing directions
 20230917,488200,05:00pm,southeast (130°)
 20230917,488200,06:00pm,south-southwest (200°)
 20230917,488200,07:00pm,west (270°)
@@ -6260,7 +6202,6 @@ date,station_id,time,wind direction
 20230917,488200,09:00pm,west (280°)
 20230917,488200,10:00pm,west-northwest (290°)
 20230917,488200,11:00pm,northwest (320°)
-20230918,488200,12:00am,east-southeast (120°)
 20230918,488200,12:00am,east-southeast (120°)
 20230918,488200,01:00am,east-southeast (110°)
 20230918,488200,02:00am,east (90°)
@@ -6669,7 +6610,6 @@ date,station_id,time,wind direction
 20231004,488200,10:00pm,southeast (130°)
 20231004,488200,11:00pm,southeast (140°)
 20231005,488200,12:00am,southeast (130°)
-20231005,488200,01:00am,east (100°)
 20231005,488200,01:00am,east (100°)
 20231005,488200,02:00am,east-northeast (70°)
 20231005,488200,03:00am,east-northeast (60°)
@@ -7252,11 +7192,9 @@ date,station_id,time,wind direction
 20231029,488200,04:00am,north (10°)
 20231029,488200,05:00am,north (350°)
 20231029,488200,06:00am,north (10°)
-20231029,488200,06:00am,north (10°)
 20231029,488200,07:00am,north (360°)
 20231029,488200,08:00am,northeast (40°)
 20231029,488200,09:00am,north (350°)
-20231029,488200,10:00am,north (10°)
 20231029,488200,10:00am,north (10°)
 20231029,488200,11:00am,north (360°)
 20231029,488200,12:00pm,north (10°)
@@ -7278,7 +7216,6 @@ date,station_id,time,wind direction
 20231030,488200,06:00am,east-northeast (60°)
 20231030,488200,07:00am,north (10°)
 20231030,488200,08:00am,north (10°)
-20231030,488200,09:00am,north (360°)
 20231030,488200,09:00am,north (360°)
 20231030,488200,10:00am,north (10°)
 20231030,488200,11:00am,north (10°)
@@ -7493,7 +7430,6 @@ date,station_id,time,wind direction
 20231108,488200,04:00am,east-southeast (110°)
 20231108,488200,05:00am,east (100°)
 20231108,488200,06:00am,east-northeast (60°)
-20231108,488200,07:00am,east-northeast (60°)
 20231108,488200,07:00am,east-northeast (60°)
 20231108,488200,08:00am,east-northeast (60°)
 20231108,488200,09:00am,northeast (40°)
@@ -7714,7 +7650,6 @@ date,station_id,time,wind direction
 20231117,488200,09:00am,north-northwest (330°)
 20231117,488200,10:00am,north (360°)
 20231117,488200,11:00am,north-northwest (330°)
-20231117,488200,12:00pm,north (360°)
 20231117,488200,12:00pm,north (360°)
 20231117,488200,01:00pm,north-northwest (330°)
 20231117,488200,02:00pm,north-northwest (340°)
@@ -8096,7 +8031,6 @@ date,station_id,time,wind direction
 20231203,488200,07:00am,northeast (50°)
 20231203,488200,08:00am,northeast (40°)
 20231203,488200,09:00am,north (360°)
-20231203,488200,09:00am,north (360°)
 20231203,488200,10:00am,northeast (40°)
 20231203,488200,11:00am,north-northeast (20°)
 20231203,488200,12:30pm,north (10°)
@@ -8107,10 +8041,8 @@ date,station_id,time,wind direction
 20231203,488200,05:00pm,northeast (40°)
 20231203,488200,06:00pm,northeast (40°)
 20231203,488200,07:00pm,north-northeast (20°)
-20231203,488200,07:00pm,north-northeast (20°)
 20231203,488200,08:00pm,north (10°)
 20231203,488200,09:00pm,north-northeast (20°)
-20231203,488200,10:00pm,low winds from changing directions
 20231203,488200,10:00pm,low winds from changing directions
 20231203,488200,11:00pm,low winds from changing directions
 20231204,488200,12:00am,north-northeast (30°)
@@ -8668,7 +8600,6 @@ date,station_id,time,wind direction
 20231227,488200,12:00am,east (80°)
 20231227,488200,01:00am,low winds from changing directions
 20231227,488200,02:00am,north-northeast (30°)
-20231227,488200,03:00am,low winds from changing directions
 20231227,488200,03:00am,low winds from changing directions
 20231227,488200,04:00am,east (90°)
 20231227,488200,05:00am,east-northeast (60°)
