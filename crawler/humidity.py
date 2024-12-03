@@ -15,8 +15,8 @@ chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 
-start_date = dt(2023, 7, 1)
-end_date = dt(2023, 12, 31)
+start_date = dt(2022, 10, 10)
+end_date = dt(2022, 10, 31)
 station_id = "488200"
 base_url = "https://meteologix.com/vn/observations/vietnam/humidity/{}-{}z.html"
 
@@ -26,7 +26,7 @@ urls = [
     for hour in range(24)
 ]
 
-output_file = "humidity/HaNoi_humidity_2023.csv"
+output_file = "humidity/HaNoi_humidity_2022.csv"
 error_log_file = "humidity/failed_urls.txt"
 batch_size = 100
 
