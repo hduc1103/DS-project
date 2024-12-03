@@ -52,4 +52,3 @@ https://meteologix.com/vn/observations/vietnam/wind-average-10min/20221128-0700z
 https://meteologix.com/vn/observations/vietnam/wind-average-10min/20221128-0900z.html
 https://meteologix.com/vn/observations/vietnam/wind-average-10min/20221202-0900z.html
 https://meteologix.com/vn/observations/vietnam/wind-average-10min/20221227-0600z.html
-
