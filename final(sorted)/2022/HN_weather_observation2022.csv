@@ -1,0 +1,1111 @@
+date,station_id,time,weather observation
+20220102,488200,01:00am,mist
+20220102,488200,04:00am,mist
+20220102,488200,07:00pm,mist
+20220102,488200,10:00pm,mist
+20220103,488200,01:00am,mist
+20220103,488200,04:00am,mist
+20220103,488200,07:00am,mist
+20220103,488200,10:00am,mist
+20220103,488200,01:00pm,mist
+20220103,488200,04:00pm,haze
+20220103,488200,07:00pm,mist
+20220103,488200,10:00pm,mist
+20220104,488200,01:30am,mist
+20220104,488200,04:30am,mist
+20220104,488200,07:00am,mist
+20220104,488200,10:00am,mist
+20220105,488200,01:00am,mist
+20220105,488200,04:00am,mist
+20220105,488200,07:00am,mist
+20220105,488200,10:00am,mist
+20220105,488200,01:00pm,haze
+20220105,488200,04:00pm,mist
+20220105,488200,07:00pm,mist
+20220105,488200,10:00pm,mist
+20220106,488200,04:00am,mist
+20220106,488200,07:00am,mist
+20220106,488200,10:00am,mist
+20220106,488250,01:00pm,clouds developing
+20220107,488200,07:00am,mist
+20220107,488200,10:00am,mist
+20220108,488250,01:00am,continuous light drizzle
+20220108,488200,04:30am,continuous light rain
+20220108,488200,07:00am,mist
+20220108,488200,07:00pm,mist
+20220108,488200,10:00pm,continuous light drizzle
+20220109,488200,01:00am,continuous light rain
+20220109,488200,04:00am,continuous light drizzle
+20220109,488250,07:00am,intermittent light drizzle
+20220109,488250,10:00am,intermittent light rain
+20220109,488250,01:00pm,clouds developing
+20220109,488200,10:00pm,continuous light rain
+20220110,488250,01:00am,clouds developing
+20220110,488200,07:00am,continuous light drizzle
+20220110,488200,10:00am,continuous light drizzle
+20220110,488200,01:00pm,continuous light drizzle
+20220110,488200,04:30pm,continuous light drizzle
+20220110,488200,07:00pm,continuous light drizzle
+20220110,488200,10:00pm,continuous light rain
+20220111,488250,04:00am,mist
+20220112,488200,04:00am,mist
+20220112,488250,07:00am,mist
+20220112,488250,10:00am,mist
+20220113,488250,07:00am,mist
+20220113,488250,10:00am,continuous light drizzle
+20220113,488250,01:00pm,clouds developing
+20220114,488200,01:00am,mist
+20220114,488200,04:00am,mist
+20220114,488200,07:00am,mist
+20220114,488200,10:00am,mist
+20220114,488200,01:00pm,mist
+20220114,488200,04:00pm,mist
+20220114,488200,07:00pm,mist
+20220114,488200,10:00pm,mist
+20220115,488200,01:00am,mist
+20220115,488200,04:00am,mist
+20220115,488200,07:00am,continuous light drizzle
+20220115,488200,10:00am,continuous moderate drizzle
+20220115,488200,01:00pm,mist
+20220115,488200,04:00pm,mist
+20220115,488200,07:00pm,mist
+20220115,488200,10:00pm,mist
+20220116,488200,01:00am,continuous light rain
+20220116,488200,04:00am,continuous moderate rain
+20220116,488200,07:00am,continuous moderate drizzle
+20220116,488200,10:00am,mist
+20220116,488250,01:00pm,clouds developing
+20220116,488200,04:00pm,mist
+20220116,488200,07:30pm,continuous light rain
+20220116,488200,10:00pm,continuous light rain
+20220117,488200,07:00am,continuous light rain
+20220117,488200,10:00am,continuous light rain
+20220117,488200,01:00pm,continuous light rain
+20220117,488200,04:00pm,continuous light rain
+20220117,488250,07:00pm,clouds developing
+20220118,488200,01:30am,mist
+20220118,488200,04:00am,mist
+20220119,488200,01:30am,continuous light rain
+20220119,488200,04:30am,continuous light rain
+20220119,488200,07:00am,mist
+20220120,488200,01:00am,mist
+20220120,488200,04:00am,mist
+20220120,488200,07:00am,continuous light rain
+20220120,488250,10:00am,continuous light rain
+20220120,488250,01:00pm,clouds developing
+20220120,488250,07:00pm,continuous light rain
+20220120,488200,10:00pm,mist
+20220121,488200,01:00am,mist
+20220121,488200,07:00am,mist
+20220121,488200,10:00am,continuous light drizzle
+20220121,488200,01:00pm,mist
+20220121,488200,04:00pm,continuous light rain
+20220121,488200,07:00pm,continuous light rain
+20220121,488200,10:00pm,continuous light rain
+20220122,488200,01:00am,continuous moderate drizzle
+20220122,488200,04:00am,continuous light drizzle
+20220122,488200,07:00am,continuous light rain
+20220122,488200,10:00am,continuous light drizzle
+20220122,488200,01:00pm,mist
+20220122,488200,04:00pm,mist
+20220122,488200,07:30pm,mist
+20220122,488200,10:00pm,mist
+20220123,488200,01:00am,mist
+20220123,488200,04:00am,mist
+20220123,488200,07:00am,continuous light drizzle
+20220123,488200,10:00am,mist
+20220123,488200,07:00pm,mist
+20220123,488200,10:00pm,mist
+20220124,488200,01:30am,mist
+20220124,488200,07:00am,mist
+20220124,488200,10:00am,mist
+20220125,488200,01:00am,mist
+20220125,488200,04:00am,continuous light rain
+20220125,488200,10:00am,continuous light drizzle
+20220126,488200,01:00am,mist
+20220126,488200,04:00am,continuous light drizzle
+20220126,488200,07:00am,continuous light rain
+20220126,488200,10:00am,continuous light rain
+20220126,488250,01:00pm,clouds developing
+20220127,488200,07:00am,mist
+20220127,488200,10:00am,mist
+20220127,488250,01:00pm,clouds developing
+20220128,488200,01:00am,mist
+20220129,488250,01:00am,clouds developing
+20220129,488200,07:00am,mist
+20220129,488200,10:30am,continuous light rain
+20220129,488200,01:00pm,continuous light rain
+20220129,488250,04:00pm,continuous light drizzle
+20220129,488200,07:30pm,continuous light rain
+20220129,488250,10:00pm,clouds developing
+20220130,488250,01:00am,continuous light rain
+20220130,488200,04:00am,continuous light rain
+20220130,488200,07:00pm,continuous moderate drizzle
+20220130,488250,10:00pm,continuous light drizzle
+20220131,488200,07:00am,continuous light rain
+20220205,488200,01:00am,continuous light rain
+20220205,488250,04:00am,continuous light rain
+20220205,488250,04:00pm,continuous light rain
+20220205,488200,07:00pm,continuous light rain
+20220205,488200,10:00pm,continuous moderate rain
+20220206,488200,01:00am,mist
+20220206,488200,04:00am,mist
+20220206,488200,07:00am,continuous light rain
+20220206,488200,10:00am,continuous light rain
+20220206,488200,01:00pm,continuous light rain
+20220206,488200,04:00pm,continuous light rain
+20220206,488250,07:00pm,clouds developing
+20220206,488200,10:00pm,continuous light drizzle
+20220207,488200,01:00am,continuous light drizzle
+20220207,488200,04:00am,continuous light drizzle
+20220207,488200,07:00am,continuous moderate drizzle
+20220207,488200,10:00am,mist
+20220207,488250,01:00pm,clouds developing
+20220207,488200,10:00pm,continuous moderate drizzle
+20220208,488250,01:00am,drizzle departed
+20220208,488250,07:00am,intermittent light rain
+20220208,488200,10:30am,continuous light drizzle
+20220208,488200,01:30pm,continuous light drizzle
+20220208,488200,04:00pm,continuous light drizzle
+20220208,488200,07:00pm,continuous light drizzle
+20220208,488250,10:00pm,continuous light rain
+20220209,488250,01:00am,clouds developing
+20220209,488200,04:00am,continuous light drizzle
+20220209,488200,07:00am,continuous light drizzle
+20220209,488200,07:00pm,continuous light drizzle
+20220209,488200,10:30pm,continuous light drizzle
+20220210,488200,01:00am,continuous light drizzle
+20220210,488200,04:00am,continuous light drizzle
+20220210,488200,07:00am,continuous light drizzle
+20220210,488250,10:00am,mist
+20220210,488250,01:00pm,decreasing cloudiness
+20220210,488200,10:00pm,continuous light drizzle
+20220211,488200,01:00am,continuous light rain
+20220211,488200,04:30am,continuous light drizzle
+20220211,488200,07:00am,continuous light drizzle
+20220211,488200,10:00am,continuous light drizzle
+20220211,488250,01:00pm,rain departed
+20220211,488200,04:00pm,mist
+20220211,488200,07:00pm,continuous moderate drizzle
+20220211,488200,10:00pm,continuous light drizzle
+20220212,488200,01:00am,continuous light drizzle
+20220212,488200,04:00am,continuous light rain
+20220212,488250,07:00am,mist
+20220212,488200,10:30am,continuous light drizzle
+20220212,488200,01:00pm,continuous light drizzle
+20220212,488200,04:00pm,continuous light drizzle
+20220212,488200,07:00pm,continuous moderate drizzle
+20220212,488200,10:00pm,continuous light rain
+20220213,488250,07:00am,intermittent light drizzle
+20220213,488200,10:00am,continuous light rain
+20220213,488250,01:00pm,clouds developing
+20220213,488200,04:30pm,continuous light rain
+20220213,488250,07:00pm,clouds developing
+20220215,488200,01:00am,continuous light drizzle
+20220215,488200,04:00am,continuous light drizzle
+20220215,488200,01:00pm,continuous moderate rain
+20220215,488250,07:00pm,continuous light drizzle
+20220215,488200,10:00pm,continuous light drizzle
+20220216,488200,01:00am,continuous light drizzle
+20220216,488200,04:00am,continuous moderate drizzle
+20220216,488200,07:00am,continuous moderate drizzle
+20220216,488200,10:30am,continuous light drizzle
+20220216,488200,01:30pm,mist
+20220216,488200,04:30pm,mist
+20220216,488200,07:30pm,continuous light drizzle
+20220216,488200,10:00pm,continuous light rain
+20220217,488200,01:00am,continuous moderate drizzle
+20220217,488200,04:00am,continuous moderate drizzle
+20220217,488200,07:00am,continuous light drizzle
+20220217,488200,10:00am,mist
+20220217,488200,01:00pm,mist
+20220217,488200,04:00pm,mist
+20220217,488200,07:00pm,continuous moderate drizzle
+20220217,488200,10:00pm,continuous moderate drizzle
+20220218,488200,01:00am,continuous light rain
+20220218,488250,04:00am,continuous light rain
+20220218,488200,07:00am,continuous light rain
+20220218,488200,10:00am,mist
+20220218,488200,01:00pm,mist
+20220218,488200,04:00pm,continuous light drizzle
+20220218,488200,07:00pm,continuous moderate drizzle
+20220218,488200,10:00pm,continuous light rain
+20220219,488200,01:00am,continuous light rain
+20220219,488200,04:00am,continuous light rain
+20220219,488200,07:00am,continuous moderate rain
+20220219,488200,10:00am,continuous moderate rain
+20220219,488200,01:00pm,continuous light rain
+20220219,488200,04:00pm,continuous light rain
+20220219,488200,07:00pm,continuous light rain
+20220219,488200,10:00pm,continuous light rain
+20220220,488250,01:00am,decreasing cloudiness
+20220220,488200,07:00am,continuous light rain
+20220220,488200,10:00am,continuous light rain
+20220220,488200,01:00pm,continuous light rain
+20220220,488200,04:00pm,continuous light rain
+20220220,488200,07:00pm,continuous light rain
+20220220,488200,10:30pm,continuous light rain
+20220224,488200,04:00am,mist
+20220225,488200,04:00am,mist
+20220225,488200,07:00am,mist
+20220226,488200,01:00am,mist
+20220226,488200,04:00am,mist
+20220226,488200,07:00am,mist
+20220226,488250,10:00am,mist
+20220226,488200,04:00pm,haze
+20220226,488200,07:00pm,mist
+20220226,488200,10:00pm,mist
+20220227,488200,01:00am,mist
+20220227,488200,04:00am,mist
+20220227,488200,07:00am,mist
+20220227,488200,10:00am,haze
+20220227,488200,01:00pm,haze
+20220227,488200,04:00pm,haze
+20220227,488200,07:00pm,haze
+20220227,488200,10:00pm,mist
+20220228,488200,07:00am,mist
+20220228,488200,10:00am,mist
+20220228,488200,01:00pm,haze
+20220228,488200,04:30pm,haze
+20220301,488200,01:00am,mist
+20220301,488200,04:00am,mist
+20220301,488200,07:00am,mist
+20220301,488200,10:00am,mist
+20220301,488200,01:00pm,mist
+20220301,488200,04:00pm,mist
+20220301,488200,07:00pm,mist
+20220301,488200,10:00pm,mist
+20220302,488200,01:00am,mist
+20220302,488200,04:00am,mist
+20220302,488200,07:00am,mist
+20220302,488200,10:00am,mist
+20220302,488200,01:00pm,haze
+20220302,488200,10:00pm,mist
+20220303,488200,01:00am,mist
+20220303,488250,04:00am,mist
+20220303,488200,07:00am,mist
+20220303,488200,10:00am,mist
+20220303,488250,01:00pm,clouds developing
+20220304,488200,01:00am,mist
+20220304,488200,04:00am,mist
+20220304,488200,07:00am,mist
+20220304,488200,10:00am,mist
+20220304,488200,01:00pm,continuous light drizzle
+20220304,488200,04:00pm,mist
+20220304,488200,07:00pm,mist
+20220304,488200,10:00pm,mist
+20220305,488200,01:00am,mist
+20220305,488200,04:00am,mist
+20220305,488200,07:00am,continuous light drizzle
+20220305,488200,10:00am,continuous moderate drizzle
+20220305,488200,01:00pm,mist
+20220305,488200,04:00pm,mist
+20220305,488200,07:00pm,continuous moderate drizzle
+20220305,488200,10:00pm,mist
+20220306,488200,01:00am,continuous light drizzle
+20220306,488200,04:00am,continuous light drizzle
+20220306,488200,07:00am,continuous light drizzle
+20220306,488200,10:00am,mist
+20220306,488200,01:00pm,mist
+20220306,488200,04:00pm,mist
+20220306,488200,07:00pm,continuous light drizzle
+20220306,488200,10:00pm,continuous light drizzle
+20220307,488200,04:00am,mist
+20220307,488200,07:00am,continuous moderate rain
+20220307,488200,10:00am,continuous light rain
+20220307,488250,01:00pm,clouds developing
+20220308,488200,07:00am,mist
+20220308,488200,10:00am,mist
+20220309,488200,01:00am,mist
+20220309,488200,04:00am,mist
+20220310,488200,07:00am,mist
+20220310,488250,10:00am,decreasing cloudiness
+20220310,488250,01:00pm,clouds developing
+20220311,488250,01:00am,clouds developing
+20220311,488200,04:30am,mist
+20220311,488200,07:00am,mist
+20220311,488250,07:00pm,continuous light rain
+20220311,488250,10:00pm,clouds developing
+20220312,488200,07:00am,mist
+20220313,488200,01:30am,mist
+20220313,488200,07:00am,mist
+20220314,488200,01:00am,mist
+20220314,488200,07:00am,mist
+20220315,488200,01:00am,continuous light rain
+20220315,488200,04:00am,continuous light rain
+20220315,488200,07:00am,mist
+20220315,488200,10:00am,mist
+20220315,488200,01:00pm,haze
+20220315,488200,04:00pm,mist
+20220315,488200,07:00pm,mist
+20220315,488200,10:30pm,mist
+20220316,488200,07:00am,mist
+20220316,488200,10:00am,continuous light rain
+20220316,488250,01:00pm,clouds developing
+20220316,488200,04:30pm,mist
+20220316,488200,07:00pm,mist
+20220316,488200,10:00pm,mist
+20220317,488200,01:00am,continuous light drizzle
+20220317,488200,04:00am,mist
+20220317,488200,07:00am,mist
+20220317,488200,01:00pm,mist
+20220317,488200,04:00pm,mist
+20220317,488200,07:00pm,mist
+20220317,488200,10:00pm,mist
+20220318,488200,04:00am,mist
+20220318,488200,07:00am,mist
+20220318,488200,10:00am,mist
+20220318,488200,01:00pm,mist
+20220318,488200,04:00pm,mist
+20220319,488200,01:00am,mist
+20220319,488200,04:00am,mist
+20220319,488200,07:00am,continuous light drizzle
+20220319,488200,10:30am,mist
+20220319,488200,01:30pm,mist
+20220319,488200,04:00pm,mist
+20220320,488200,07:00am,mist
+20220321,488200,01:00am,mist
+20220321,488200,04:00am,mist
+20220321,488200,07:00am,continuous moderate drizzle
+20220321,488200,10:00am,mist
+20220321,488200,01:00pm,mist
+20220321,488200,04:00pm,mist
+20220321,488200,07:00pm,mist
+20220321,488200,10:00pm,mist
+20220322,488200,01:00am,light to moderate thunderstorm with rain or snow
+20220322,488200,04:00am,mist
+20220322,488200,07:00am,mist
+20220322,488200,10:00am,mist
+20220322,488200,01:00pm,mist
+20220322,488200,04:00pm,mist
+20220322,488200,07:00pm,continuous light rain
+20220322,488200,10:00pm,thunderstorm nearby
+20220323,488250,01:00am,clouds developing
+20220323,488250,07:00am,rain showers departed
+20220323,488250,10:00am,clouds developing
+20220323,488250,01:00pm,clouds developing
+20220323,488200,07:00pm,continuous light rain
+20220323,488200,10:00pm,continuous light rain
+20220324,488200,01:00am,mist
+20220324,488200,04:00am,continuous light drizzle
+20220324,488200,10:00am,mist
+20220324,488200,01:00pm,mist
+20220324,488200,04:00pm,mist
+20220324,488200,07:00pm,mist
+20220324,488200,10:00pm,mist
+20220325,488200,01:00am,mist
+20220325,488200,04:00am,continuous moderate drizzle
+20220325,488200,07:00am,continuous light drizzle
+20220325,488200,10:00am,mist
+20220325,488200,01:00pm,mist
+20220325,488200,04:00pm,mist
+20220325,488200,07:00pm,mist
+20220325,488200,10:00pm,mist
+20220326,488200,01:00am,mist
+20220326,488200,04:00am,mist
+20220326,488200,07:00am,mist
+20220326,488200,10:00am,mist
+20220326,488200,01:00pm,haze
+20220326,488200,04:00pm,haze
+20220326,488200,07:00pm,mist
+20220326,488200,10:00pm,mist
+20220327,488250,01:00am,clouds developing
+20220327,488250,07:00am,continuous light rain
+20220327,488250,01:00pm,clouds developing
+20220327,488250,07:00pm,continuous light rain
+20220327,488200,10:00pm,continuous moderate rain
+20220328,488200,04:00am,mist
+20220329,488200,01:00am,mist
+20220329,488200,04:00am,continuous light drizzle
+20220329,488200,07:00am,mist
+20220329,488200,10:00am,mist
+20220329,488200,01:00pm,mist
+20220329,488200,04:00pm,mist
+20220329,488200,07:00pm,mist
+20220329,488200,10:00pm,continuous light rain
+20220330,488200,01:00am,mist
+20220330,488200,04:00am,mist
+20220330,488200,07:00am,mist
+20220330,488200,10:00am,mist
+20220330,488200,01:00pm,mist
+20220330,488200,04:00pm,mist
+20220330,488200,07:00pm,mist
+20220331,488250,01:00am,clouds developing
+20220331,488200,04:00am,continuous light rain
+20220331,488200,07:00am,mist
+20220331,488200,07:30pm,mist
+20220331,488200,10:00pm,continuous light rain
+20220401,488200,07:00am,continuous moderate rain
+20220401,488200,10:00am,continuous light rain
+20220401,488200,01:00pm,continuous light rain
+20220401,488200,04:00pm,continuous light rain
+20220401,488200,07:00pm,continuous light rain
+20220405,488200,07:00am,mist
+20220406,488200,01:00am,mist
+20220407,488200,07:00am,mist
+20220407,488200,10:00am,haze
+20220408,488200,01:00am,mist
+20220408,488200,04:00am,mist
+20220408,488200,07:30am,mist
+20220409,488200,01:30am,mist
+20220409,488200,04:00am,mist
+20220409,488200,07:00am,mist
+20220410,488200,04:00am,mist
+20220410,488200,07:00am,mist
+20220411,488200,07:00am,mist
+20220411,488250,01:00pm,clouds developing
+20220411,488200,04:00pm,continuous moderate drizzle
+20220411,488250,07:00pm,intermittent light rain
+20220413,488200,01:00am,mist
+20220413,488200,04:00am,mist
+20220413,488200,07:00am,mist
+20220413,488200,10:00am,mist
+20220413,488200,10:00pm,mist
+20220414,488200,07:00am,mist
+20220415,488250,04:00am,rain departed
+20220415,488200,07:30am,continuous light rain
+20220415,488200,10:00am,continuous light drizzle
+20220415,488200,01:30pm,mist
+20220416,488250,01:00am,continuous light rain
+20220416,488250,04:00am,intermittent light rain
+20220416,488200,07:00am,continuous moderate rain
+20220416,488200,10:00am,continuous light rain
+20220416,488250,01:00pm,clouds developing
+20220416,488250,07:00pm,intermittent light rain
+20220417,488200,01:30am,continuous light rain
+20220417,488250,04:00am,continuous light drizzle
+20220417,488200,07:00am,continuous light rain
+20220417,488250,10:00am,rain departed
+20220417,488250,01:00pm,clouds developing
+20220417,488250,04:00pm,drizzle departed
+20220417,488200,07:00pm,continuous light drizzle
+20220417,488200,10:00pm,continuous light drizzle
+20220418,488200,07:00am,continuous light rain
+20220418,488200,10:00am,continuous light rain
+20220418,488250,01:00pm,clouds developing
+20220420,488200,01:00am,mist
+20220420,488200,04:00am,mist
+20220420,488200,07:00am,mist
+20220420,488200,10:30pm,mist
+20220421,488200,01:00am,mist
+20220421,488200,04:30am,mist
+20220421,488200,07:00am,mist
+20220421,488200,10:00am,mist
+20220421,488200,01:00pm,mist
+20220421,488200,04:00pm,mist
+20220421,488200,07:00pm,continuous light rain
+20220421,488200,10:00pm,mist
+20220422,488200,04:00am,mist
+20220422,488200,07:00am,mist
+20220423,488200,07:00am,continuous light drizzle
+20220424,488200,07:30am,continuous light rain
+20220425,488200,10:00am,mist
+20220425,488200,01:00pm,mist
+20220426,488200,04:00am,continuous light drizzle
+20220426,488200,07:00am,mist
+20220427,488250,07:00am,drizzle departed
+20220429,488200,04:00am,continuous light rain
+20220429,488200,01:00pm,continuous light rain
+20220430,488200,04:00am,continuous light rain
+20220430,488200,07:00am,mist
+20220501,488200,07:30am,continuous light rain
+20220501,488250,10:00am,clouds developing
+20220501,488250,01:00pm,clouds developing
+20220505,488200,07:00am,mist
+20220506,488200,01:00am,mist
+20220506,488250,04:00am,intermittent light rain
+20220506,488200,10:30pm,continuous light rain
+20220507,488250,01:00am,continuous light rain
+20220507,488200,04:30am,continuous light rain
+20220507,488250,07:00am,clouds developing
+20220507,488250,07:00pm,rain departed
+20220508,488200,01:00am,continuous light rain
+20220508,488200,04:00am,continuous light rain
+20220508,488250,07:00am,clouds developing
+20220508,488250,04:00pm,rain showers departed
+20220508,488250,07:00pm,clouds developing
+20220508,488250,10:00pm,continuous light rain
+20220509,488250,01:00am,clouds developing
+20220509,488200,07:00am,mist
+20220509,488250,10:00pm,light rain showers
+20220510,488200,07:30am,continuous light rain
+20220511,488250,01:00am,rain showers departed
+20220511,488200,07:30am,mist
+20220512,488200,01:00am,continuous light rain
+20220512,488200,04:30am,mist
+20220512,488200,04:00pm,continuous light rain
+20220512,488250,07:00pm,clouds developing
+20220513,488250,01:00am,continuous light rain
+20220513,488250,04:00am,clouds developing
+20220513,488200,07:00am,mist
+20220513,488250,07:00pm,thunderstorms departed
+20220513,488200,10:00pm,continuous light rain
+20220514,488200,01:00am,mist
+20220514,488200,04:00am,continuous light drizzle
+20220514,488250,07:00am,clouds developing
+20220514,488250,10:00am,intermittent light rain
+20220514,488250,01:00pm,clouds developing
+20220514,488250,07:00pm,continuous light rain
+20220514,488200,10:00pm,mist
+20220515,488200,07:00am,continuous light rain
+20220515,488200,10:00am,continuous light rain
+20220515,488250,01:00pm,cloudiness unchanged
+20220515,488250,04:00pm,clouds developing
+20220515,488250,07:00pm,clouds developing
+20220519,488200,07:00am,mist
+20220520,488200,07:00am,mist
+20220521,488200,04:30am,continuous light rain
+20220521,488200,07:30am,continuous light rain
+20220521,488200,01:30pm,continuous light rain
+20220522,488250,01:00am,clouds developing
+20220522,488200,04:00am,continuous light rain
+20220522,488200,07:00am,continuous light rain
+20220522,488200,10:00am,continuous moderate rain
+20220522,488200,01:00pm,continuous light rain
+20220522,488200,04:00pm,continuous light rain
+20220522,488200,07:00pm,continuous light rain
+20220522,488200,10:00pm,continuous light rain
+20220523,488200,01:00am,continuous moderate rain
+20220523,488200,04:00am,heavy thunderstorm with rain or snow
+20220523,488200,07:00am,continuous moderate rain
+20220523,488200,10:30am,continuous moderate rain
+20220523,488200,01:00pm,continuous heavy rain
+20220523,488200,04:00pm,continuous light rain
+20220523,488200,07:00pm,continuous moderate rain
+20220523,488200,10:00pm,continuous light rain
+20220524,488200,01:00am,mist
+20220524,488200,04:00am,mist
+20220524,488200,07:00am,continuous light rain
+20220524,488200,10:00am,continuous light rain
+20220524,488200,01:00pm,continuous light rain
+20220524,488250,04:00pm,clouds developing
+20220524,488250,07:00pm,clouds developing
+20220524,488200,10:30pm,mist
+20220525,488200,01:00am,mist
+20220525,488200,04:00am,mist
+20220526,488200,07:00am,mist
+20220526,488200,10:00am,mist
+20220527,488250,01:00am,clouds developing
+20220527,488200,04:30am,mist
+20220527,488200,10:30am,continuous moderate rain
+20220527,488250,07:00pm,rain showers departed
+20220527,488200,10:00pm,light to moderate thunderstorm with rain or snow
+20220528,488250,01:00am,decreasing cloudiness
+20220528,488200,04:00am,mist
+20220528,488200,07:00am,mist
+20220528,488200,07:00pm,light to moderate thunderstorm with rain or snow
+20220528,488250,10:00pm,clouds developing
+20220529,488200,01:00am,mist
+20220529,488200,04:30am,mist
+20220529,488200,04:00pm,light to moderate thunderstorm with rain or snow
+20220529,488250,07:00pm,clouds developing
+20220530,488200,01:00am,thunderstorm nearby
+20220530,488200,04:00am,light to moderate thunderstorm with rain or snow
+20220530,488200,01:00pm,thunderstorm nearby
+20220530,488200,10:00pm,continuous light rain
+20220531,488200,01:30am,mist
+20220531,488200,04:00am,mist
+20220531,488200,07:00am,continuous light rain
+20220531,488250,10:00am,clouds developing
+20220531,488250,01:00pm,clouds developing
+20220601,488200,01:30am,mist
+20220601,488200,04:00am,mist
+20220601,488200,07:00pm,continuous moderate rain
+20220601,488200,10:00pm,continuous light rain
+20220602,488200,01:00am,thunderstorm nearby
+20220602,488200,07:00am,mist
+20220602,488250,10:00pm,"lightning visible, no thunder heard"
+20220605,488250,04:00am,"lightning visible, no thunder heard"
+20220606,488200,01:30am,continuous light rain
+20220606,488250,04:00am,continuous light rain
+20220606,488200,07:00am,light to moderate thunderstorm with rain or snow
+20220606,488250,10:00am,rain departed
+20220606,488250,01:00pm,clouds developing
+20220607,488200,04:00am,mist
+20220607,488250,07:00am,clouds developing
+20220608,488200,07:00am,mist
+20220608,488200,01:00pm,continuous light rain
+20220608,488200,04:00pm,thunderstorm nearby
+20220608,488250,07:00pm,clouds developing
+20220609,488200,07:00am,mist
+20220610,488200,01:00am,continuous light rain
+20220610,488250,04:00am,clouds developing
+20220610,488200,07:30am,mist
+20220610,488200,04:00pm,thunderstorm nearby
+20220610,488200,07:30pm,continuous light rain
+20220610,488200,10:00pm,continuous light rain
+20220611,488200,01:00am,continuous light rain
+20220611,488200,04:00am,mist
+20220611,488200,07:00am,continuous light rain
+20220611,488200,10:00am,continuous light rain
+20220611,488200,01:00pm,continuous light rain
+20220611,488200,04:00pm,continuous light rain
+20220611,488250,07:00pm,clouds developing
+20220611,488200,10:30pm,mist
+20220612,488200,07:00am,mist
+20220612,488200,10:00am,mist
+20220613,488250,01:00am,light to moderate thunderstorm with rain or snow
+20220613,488200,04:00am,continuous light rain
+20220613,488200,10:00pm,continuous light rain
+20220614,488250,01:00am,clouds developing
+20220614,488200,07:00am,continuous light rain
+20220614,488200,10:00am,continuous light rain
+20220614,488250,01:00pm,clouds developing
+20220614,488250,07:00pm,intermittent light rain
+20220614,488200,10:00pm,continuous light rain
+20220615,488250,01:00am,continuous light rain
+20220615,488250,04:00am,clouds developing
+20220615,488200,10:00pm,continuous light rain
+20220616,488250,07:00am,clouds developing
+20220621,488250,10:00pm,"lightning visible, no thunder heard"
+20220622,488200,01:00am,continuous light rain
+20220622,488200,04:00am,thunderstorm nearby
+20220622,488250,07:00pm,clouds developing
+20220623,488250,07:00am,clouds developing
+20220626,488250,01:00am,decreasing cloudiness
+20220626,488200,07:00pm,thunderstorm nearby
+20220626,488250,10:00pm,decreasing cloudiness
+20220629,488250,01:00am,thunderstorm nearby
+20220629,488200,04:00am,continuous light rain
+20220629,488250,10:00am,clouds developing
+20220629,488250,01:00pm,clouds developing
+20220630,488250,07:00am,intermittent light rain
+20220701,488200,04:00pm,thunderstorm nearby
+20220702,488250,01:00am,clouds developing
+20220702,488250,04:00am,rain departed
+20220702,488200,10:00pm,continuous light rain
+20220703,488250,07:00am,clouds developing
+20220703,488250,07:00pm,thunderstorm nearby
+20220704,488250,04:00am,thunderstorm nearby
+20220705,488250,01:00am,rain departed
+20220705,488250,07:00am,clouds developing
+20220705,488200,07:00pm,heavy thunderstorm with rain or snow
+20220705,488200,10:00pm,light to moderate thunderstorm with rain or snow
+20220706,488250,10:00pm,"lightning visible, no thunder heard"
+20220707,488200,01:00am,continuous moderate rain
+20220707,488200,04:00am,continuous moderate rain
+20220707,488250,01:00pm,thunderstorm nearby
+20220707,488200,04:00pm,continuous light rain
+20220707,488250,07:00pm,clouds developing
+20220707,488200,10:00pm,continuous heavy rain
+20220708,488250,01:00am,thunderstorm nearby
+20220708,488200,04:00am,continuous moderate rain
+20220708,488250,07:00am,clouds developing
+20220709,488250,07:00am,decreasing cloudiness
+20220709,488200,10:00am,continuous light rain
+20220709,488250,01:00pm,clouds developing
+20220710,488200,07:00pm,continuous light rain
+20220711,488250,04:00pm,thunderstorm nearby
+20220711,488250,07:00pm,decreasing cloudiness
+20220712,488250,04:00am,clouds developing
+20220712,488250,07:00am,thunderstorm nearby
+20220712,488250,10:00am,clouds developing
+20220712,488250,01:00pm,moderate or heavy rain showers
+20220712,488250,04:00pm,clouds developing
+20220712,488250,07:00pm,clouds developing
+20220713,488250,04:00am,clouds developing
+20220713,488200,07:00am,thunderstorm nearby
+20220713,488250,10:00am,clouds developing
+20220713,488200,01:00pm,continuous light rain
+20220713,488200,04:00pm,light to moderate thunderstorm with rain or snow
+20220713,488200,10:00pm,continuous moderate rain
+20220714,488250,01:00am,"lightning visible, no thunder heard"
+20220714,488200,04:00am,heavy thunderstorm with rain or snow
+20220714,488250,07:00am,clouds developing
+20220714,488250,10:00am,continuous light rain
+20220714,488250,01:00pm,clouds developing
+20220715,488200,07:00am,continuous light rain
+20220718,488200,01:00am,continuous light rain
+20220718,488250,04:00am,clouds developing
+20220718,488250,04:00pm,thunderstorm nearby
+20220718,488250,07:00pm,clouds developing
+20220718,488200,10:00pm,continuous moderate rain
+20220719,488250,04:00am,light to moderate thunderstorm with rain or snow
+20220719,488250,07:00am,clouds developing
+20220719,488200,07:00pm,continuous light rain
+20220720,488250,04:00am,thunderstorm nearby
+20220720,488250,07:00am,clouds developing
+20220720,488200,04:00pm,continuous light rain
+20220720,488250,07:00pm,rain departed
+20220721,488250,04:00am,moderate or heavy rain showers
+20220721,488250,07:00am,rain departed
+20220721,488250,10:00am,rain showers departed
+20220721,488200,01:00pm,continuous light rain
+20220721,488200,04:00pm,continuous light rain
+20220721,488250,07:00pm,clouds developing
+20220722,488250,07:00am,clouds developing
+20220722,488200,04:00pm,heavy thunderstorm with rain or snow
+20220722,488250,07:00pm,clouds developing
+20220724,488200,07:00am,mist
+20220729,488250,10:00pm,"lightning visible, no thunder heard"
+20220730,488250,01:00am,"lightning visible, no thunder heard"
+20220730,488250,04:00am,rain departed
+20220730,488200,07:00pm,light to moderate thunderstorm with rain or snow
+20220730,488250,10:00pm,clouds developing
+20220731,488250,07:00am,clouds developing
+20220801,488250,04:00am,moderate or heavy rain showers
+20220801,488200,07:00am,continuous moderate rain
+20220802,488200,07:00am,mist
+20220802,488200,10:00am,thunderstorm nearby
+20220804,488250,01:00am,clouds developing
+20220804,488250,01:00pm,rain departed
+20220804,488250,07:00pm,clouds developing
+20220804,488200,10:00pm,continuous light rain
+20220805,488200,04:00am,continuous moderate rain
+20220806,488250,01:00am,clouds developing
+20220806,488200,04:00am,continuous light rain
+20220806,488200,07:00am,continuous light rain
+20220806,488250,10:00am,clouds developing
+20220806,488200,01:00pm,continuous light rain
+20220806,488200,04:00pm,continuous light rain
+20220806,488250,07:00pm,continuous light rain
+20220806,488200,10:00pm,continuous moderate rain
+20220807,488200,01:00am,mist
+20220807,488200,04:00am,mist
+20220807,488250,07:00am,continuous light rain
+20220807,488250,10:00am,continuous light rain
+20220807,488250,01:00pm,clouds developing
+20220807,488250,07:00pm,clouds developing
+20220808,488200,07:00am,mist
+20220808,488200,04:00pm,thunderstorm nearby
+20220808,488200,07:00pm,continuous light rain
+20220809,488250,07:00am,cloudiness unchanged
+20220810,488200,01:00am,continuous light rain
+20220810,488200,04:00am,continuous heavy rain
+20220810,488250,10:00am,clouds developing
+20220810,488250,01:00pm,clouds developing
+20220810,488200,04:00pm,continuous light rain
+20220810,488200,07:00pm,continuous light rain
+20220810,488200,10:00pm,continuous light rain
+20220811,488200,01:00am,continuous moderate rain
+20220811,488200,04:00am,continuous light rain
+20220811,488250,07:00am,continuous light rain
+20220811,488200,10:00am,continuous light rain
+20220811,488200,01:00pm,continuous heavy rain
+20220811,488250,04:00pm,clouds developing
+20220811,488250,07:00pm,moderate or heavy rain showers
+20220811,488250,10:00pm,clouds developing
+20220812,488200,01:00am,mist
+20220812,488200,04:00am,mist
+20220812,488200,07:00am,continuous heavy rain
+20220812,488200,10:00am,continuous light rain
+20220812,488200,01:00pm,continuous moderate rain
+20220812,488250,04:00pm,clouds developing
+20220812,488250,07:00pm,clouds developing
+20220813,488200,04:00am,mist
+20220813,488200,07:00am,mist
+20220814,488250,07:00pm,clouds developing
+20220817,488200,07:00am,mist
+20220817,488250,01:00pm,thunderstorm nearby
+20220817,488250,04:00pm,clouds developing
+20220817,488250,07:00pm,decreasing cloudiness
+20220819,488250,01:00am,clouds developing
+20220819,488250,04:00am,light to moderate thunderstorm with rain or snow
+20220819,488250,10:00pm,rain showers departed
+20220820,488200,01:00am,continuous light rain
+20220820,488200,04:00am,continuous light rain
+20220820,488200,07:00am,continuous light rain
+20220820,488200,01:00pm,light to moderate thunderstorm with rain or snow
+20220820,488250,04:00pm,light to moderate thunderstorm with rain or snow
+20220820,488200,07:00pm,continuous light rain
+20220820,488250,10:00pm,continuous light rain
+20220821,488250,01:00am,moderate or heavy rain showers
+20220821,488250,04:00am,decreasing cloudiness
+20220821,488200,07:00am,continuous light rain
+20220821,488200,10:00am,continuous light rain
+20220821,488250,01:00pm,moderate or heavy rain showers
+20220821,488250,04:00pm,continuous light rain
+20220821,488250,07:00pm,clouds developing
+20220822,488200,07:00am,mist
+20220823,488250,01:00pm,clouds developing
+20220823,488200,07:00pm,continuous light rain
+20220825,488200,01:00am,continuous light rain
+20220825,488200,04:00am,continuous heavy rain
+20220825,488200,07:00am,mist
+20220825,488250,10:00am,moderate or heavy rain showers
+20220825,488250,01:00pm,clouds developing
+20220825,488250,04:00pm,rain showers departed
+20220825,488250,07:00pm,rain showers departed
+20220825,488250,10:00pm,moderate or heavy rain showers
+20220826,488200,07:00am,continuous light rain
+20220826,488250,10:00am,clouds developing
+20220826,488250,01:00pm,clouds developing
+20220827,488250,10:00pm,"lightning visible, no thunder heard"
+20220829,488200,07:00am,mist
+20220830,488200,07:00am,mist
+20220901,488250,10:00am,rain departed
+20220901,488250,01:00pm,rain departed
+20220901,488250,07:00pm,clouds developing
+20220903,488200,07:00am,mist
+20220904,488200,07:00am,thunderstorm nearby
+20220904,488250,04:00pm,clouds developing
+20220904,488250,07:00pm,clouds developing
+20220907,488200,01:00am,continuous light rain
+20220907,488200,04:00am,continuous light rain
+20220907,488200,04:00pm,continuous moderate rain
+20220907,488200,07:00pm,mist
+20220908,488200,01:00am,continuous moderate rain
+20220908,488250,04:00am,continuous moderate rain
+20220908,488200,07:00am,mist
+20220908,488250,10:00am,continuous moderate rain
+20220908,488250,01:00pm,continuous moderate rain
+20220908,488200,04:00pm,continuous light rain
+20220908,488200,07:00pm,continuous light rain
+20220908,488250,10:00pm,continuous light rain
+20220909,488250,01:00am,continuous light rain
+20220909,488250,04:00am,clouds developing
+20220909,488250,07:00am,clouds developing
+20220909,488250,10:00am,continuous light rain
+20220909,488250,01:00pm,rain departed
+20220910,488250,07:00am,continuous heavy rain
+20220910,488250,10:00am,clouds developing
+20220910,488250,01:00pm,clouds developing
+20220911,488200,07:00am,mist
+20220912,488200,04:00am,mist
+20220913,488200,07:00am,mist
+20220914,488200,04:00am,mist
+20220914,488250,07:00am,mist
+20220914,488200,07:00pm,visibility reduced by smoke
+20220915,488200,07:00am,mist
+20220915,488250,04:00pm,rain showers departed
+20220915,488250,07:00pm,"lightning visible, no thunder heard"
+20220916,488250,01:00am,clouds developing
+20220916,488200,04:00pm,thunderstorm nearby
+20220916,488200,07:00pm,continuous light rain
+20220916,488250,10:00pm,decreasing cloudiness
+20220917,488200,04:00am,mist
+20220917,488200,07:00am,continuous moderate rain
+20220917,488250,10:00am,clouds developing
+20220917,488250,01:00pm,clouds developing
+20220918,488200,04:00am,mist
+20220918,488200,07:00am,mist
+20220919,488200,04:00am,mist
+20220919,488200,07:00am,mist
+20220920,488200,07:00am,mist
+20220920,488250,04:00pm,clouds developing
+20220920,488250,07:00pm,clouds developing
+20220921,488200,01:00pm,heavy thunderstorm with rain or snow
+20220921,488250,04:00pm,clouds developing
+20220921,488250,07:00pm,decreasing cloudiness
+20220922,488250,07:00am,clouds developing
+20220922,488250,10:00am,rain departed
+20220922,488250,01:00pm,clouds developing
+20220922,488250,04:00pm,clouds developing
+20220922,488250,07:00pm,decreasing cloudiness
+20220923,488200,01:00am,continuous light rain
+20220923,488250,04:00am,rain departed
+20220923,488250,07:00am,mist
+20220923,488250,07:00pm,clouds developing
+20220923,488250,10:00pm,rain showers departed
+20220924,488200,01:00am,continuous moderate rain
+20220924,488250,04:00am,light rain showers
+20220924,488250,07:00am,clouds developing
+20220924,488250,01:00pm,continuous light rain
+20220924,488250,04:00pm,rain showers departed
+20220924,488250,07:00pm,decreasing cloudiness
+20220925,488200,01:00am,mist
+20220925,488200,04:00am,mist
+20220925,488200,07:00am,continuous light rain
+20220925,488200,10:00am,continuous light rain
+20220925,488200,01:00pm,continuous light rain
+20220926,488250,01:00am,mist
+20220926,488200,04:00am,mist
+20220926,488200,07:00am,mist
+20220926,488200,07:00pm,visibility reduced by smoke
+20220927,488200,07:00am,mist
+20220927,488200,07:00pm,visibility reduced by smoke
+20220928,488250,01:00am,clouds developing
+20220928,488200,07:00am,mist
+20220928,488200,01:00pm,continuous moderate rain
+20220928,488200,04:00pm,continuous light rain
+20220928,488200,10:00pm,continuous light rain
+20220929,488200,07:00am,continuous moderate rain
+20220929,488200,10:00am,continuous light rain
+20220929,488200,04:00pm,continuous light rain
+20220929,488200,07:00pm,continuous light rain
+20220929,488200,10:00pm,continuous light rain
+20220930,488200,01:00am,continuous light rain
+20221001,488200,04:00am,continuous light rain
+20221001,488200,07:00am,mist
+20221003,488200,04:00am,mist
+20221004,488200,07:00am,mist
+20221004,488250,07:00pm,clouds developing
+20221005,488200,04:00am,mist
+20221006,488200,07:00am,mist
+20221006,488250,04:00pm,clouds developing
+20221006,488250,07:00pm,decreasing cloudiness
+20221007,488200,04:00am,mist
+20221007,488200,07:00am,mist
+20221007,488250,10:00am,clouds developing
+20221007,488250,01:00pm,clouds developing
+20221008,488200,01:00am,continuous light rain
+20221009,488250,01:00am,rain departed
+20221009,488200,10:00am,continuous light rain
+20221009,488250,01:00pm,clouds developing
+20221018,488200,04:00am,mist
+20221019,488200,01:00am,continuous light rain
+20221019,488200,04:00am,continuous moderate rain
+20221019,488200,01:00pm,continuous light rain
+20221019,488250,04:00pm,clouds developing
+20221019,488200,07:00pm,continuous light rain
+20221019,488200,10:00pm,continuous light rain
+20221020,488250,01:00am,clouds developing
+20221020,488200,04:00am,continuous light rain
+20221020,488200,07:00am,continuous moderate rain
+20221020,488200,10:00am,continuous light rain
+20221020,488200,01:00pm,continuous light rain
+20221020,488250,04:00pm,clouds developing
+20221020,488200,07:00pm,continuous light rain
+20221020,488200,10:00pm,continuous light rain
+20221021,488200,04:00am,mist
+20221021,488250,07:00am,clouds developing
+20221021,488200,10:00am,continuous light rain
+20221021,488200,01:00pm,continuous light rain
+20221021,488250,04:00pm,clouds developing
+20221021,488250,07:00pm,decreasing cloudiness
+20221022,488200,07:00am,mist
+20221024,488250,07:00am,mist
+20221025,488200,01:00am,mist
+20221025,488200,04:00am,mist
+20221025,488200,07:00am,mist
+20221025,488200,01:00pm,continuous moderate rain
+20221025,488200,04:00pm,mist
+20221025,488200,07:00pm,continuous light rain
+20221025,488200,10:00pm,mist
+20221026,488200,04:00am,mist
+20221026,488200,07:00am,mist
+20221026,488200,10:00am,mist
+20221026,488200,01:00pm,mist
+20221026,488200,07:00pm,mist
+20221026,488200,10:00pm,mist
+20221028,488200,04:00am,mist
+20221029,488200,04:00am,mist
+20221029,488200,07:00am,mist
+20221029,488250,10:00am,clouds developing
+20221029,488250,01:00pm,clouds developing
+20221029,488200,07:00pm,mist
+20221030,488200,07:00am,mist
+20221104,488200,04:00am,mist
+20221104,488200,07:00pm,visibility reduced by smoke
+20221105,488200,04:00am,mist
+20221105,488200,07:00am,mist
+20221106,488200,01:00am,mist
+20221106,488200,04:00am,mist
+20221106,488200,07:00am,mist
+20221106,488200,10:00pm,haze
+20221107,488200,01:00am,mist
+20221107,488200,04:00am,mist
+20221107,488200,07:00am,mist
+20221107,488200,07:00pm,haze
+20221108,488200,04:00am,mist
+20221108,488200,07:00am,mist
+20221108,488250,10:00am,mist
+20221109,488200,07:00am,mist
+20221110,488200,04:00am,mist
+20221110,488200,07:00am,mist
+20221110,488200,04:00pm,mist
+20221110,488200,07:00pm,mist
+20221110,488200,10:00pm,mist
+20221111,488200,07:00am,mist
+20221112,488200,04:00am,mist
+20221112,488200,07:00am,mist
+20221113,488200,01:00am,mist
+20221113,488200,04:00am,mist
+20221113,488200,07:00am,mist
+20221113,488250,01:00pm,rain departed
+20221114,488200,07:00am,mist
+20221114,488200,01:00pm,haze
+20221114,488200,04:00pm,mist
+20221114,488200,07:00pm,mist
+20221115,488200,04:00am,mist
+20221115,488200,07:00am,mist
+20221115,488200,10:00am,mist
+20221116,488200,07:00am,mist
+20221116,488250,10:00am,clouds developing
+20221116,488250,01:00pm,clouds developing
+20221117,488250,04:00am,mist
+20221118,488250,04:00am,clouds developing
+20221118,488200,07:00am,mist
+20221119,488200,07:00am,mist
+20221119,488250,10:00am,clouds developing
+20221119,488250,01:00pm,clouds developing
+20221121,488200,01:00am,mist
+20221121,488200,04:00am,mist
+20221121,488200,07:00pm,haze
+20221121,488200,10:00pm,mist
+20221122,488200,07:00am,mist
+20221123,488200,04:00am,continuous light rain
+20221124,488200,01:00am,continuous light rain
+20221124,488200,07:00am,continuous light rain
+20221124,488250,10:00am,clouds developing
+20221124,488200,01:00pm,continuous light rain
+20221124,488250,04:00pm,continuous light rain
+20221124,488200,07:00pm,continuous light rain
+20221124,488250,10:00pm,continuous light drizzle
+20221125,488250,01:00am,continuous light rain
+20221125,488200,04:00am,continuous light rain
+20221125,488250,07:00am,continuous light drizzle
+20221125,488200,10:00am,continuous light rain
+20221125,488250,01:00pm,clouds developing
+20221125,488200,10:00pm,continuous moderate drizzle
+20221126,488200,01:00am,mist
+20221126,488200,04:00am,mist
+20221126,488250,07:00am,clouds developing
+20221126,488250,10:00am,continuous light drizzle
+20221126,488250,01:00pm,intermittent light drizzle
+20221126,488250,04:00pm,drizzle departed
+20221126,488250,07:00pm,clouds developing
+20221126,488200,10:00pm,mist
+20221127,488200,07:00am,mist
+20221128,488200,04:00am,mist
+20221129,488200,07:00am,mist
+20221130,488250,01:00am,continuous light rain
+20221130,488250,04:00am,continuous light rain
+20221130,488250,04:00pm,light rain showers
+20221130,488250,07:00pm,clouds developing
+20221130,488250,10:00pm,continuous light rain
+20221201,488250,07:00am,continuous light drizzle
+20221201,488250,10:00am,clouds developing
+20221201,488250,01:00pm,clouds developing
+20221204,488200,01:00am,continuous light rain
+20221204,488250,04:00am,continuous light drizzle
+20221205,488250,07:00am,clouds developing
+20221209,488200,04:00am,continuous light drizzle
+20221210,488250,01:00am,clouds developing
+20221210,488200,07:00am,mist
+20221210,488250,10:00am,continuous light drizzle
+20221210,488250,01:00pm,continuous light rain
+20221210,488250,04:00pm,clouds developing
+20221210,488250,10:00pm,continuous light drizzle
+20221212,488200,07:00pm,haze
+20221212,488200,10:00pm,mist
+20221213,488200,07:00am,mist
+20221215,488200,01:00am,mist
+20221215,488200,04:00am,mist
+20221215,488200,07:00am,mist
+20221216,488200,07:00am,mist
+20221216,488200,10:00am,haze
+20221216,488200,07:00pm,haze
+20221216,488200,10:00pm,mist
+20221219,488200,04:00am,mist
+20221220,488200,07:00am,mist
+20221221,488200,04:00am,mist
+20221221,488200,10:00pm,mist
+20221222,488200,07:00am,mist
+20221224,488200,04:00am,mist
+20221225,488200,04:00am,mist
+20221225,488200,07:00am,mist
+20221226,488200,01:00am,mist
+20221226,488200,04:00am,mist
+20221226,488200,07:00am,mist
+20221226,488200,10:00am,mist
+20221226,488200,04:00pm,mist
+20221226,488200,07:00pm,mist
+20221226,488200,10:00pm,mist
+20221227,488200,07:00am,mist
+20221228,488250,01:00am,clouds developing
+20221228,488250,07:00am,clouds developing
+20221228,488200,10:00am,continuous light rain
+20221228,488200,01:00pm,continuous light rain
+20221228,488200,04:00pm,continuous light rain
+20221228,488250,07:00pm,clouds developing
