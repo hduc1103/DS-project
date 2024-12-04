@@ -1,2 +1,12 @@
 https://meteologix.com/vn/observations/vietnam/temperature/20210221-0000z.html
 https://meteologix.com/vn/observations/vietnam/temperature/20210326-0600z.html
+https://meteologix.com/vn/observations/vietnam/temperature/20210326-0600z.html
+https://meteologix.com/vn/observations/vietnam/temperature/20210330-1900z.html
+https://meteologix.com/vn/observations/vietnam/temperature/20210604-1300z.html
+https://meteologix.com/vn/observations/vietnam/temperature/20210803-0000z.html
+https://meteologix.com/vn/observations/vietnam/temperature/20210813-2300z.html
+https://meteologix.com/vn/observations/vietnam/temperature/20210816-1000z.html
+https://meteologix.com/vn/observations/vietnam/temperature/20211110-1800z.html
+https://meteologix.com/vn/observations/vietnam/temperature/20211204-2200z.html
+https://meteologix.com/vn/observations/vietnam/temperature/20211206-1500z.html
+https://meteologix.com/vn/observations/vietnam/temperature/20211207-0900z.html
