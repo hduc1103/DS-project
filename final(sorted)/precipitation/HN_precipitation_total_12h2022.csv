@@ -1,4 +1,4 @@
-date,station_id,time,precipitation total 12h
+date,station_id,time,precipitation
 20220106,488250,07:00pm,~0.0mm
 20220109,488250,07:00am,1.0mm
 20220109,488250,07:00pm,0.9mm
