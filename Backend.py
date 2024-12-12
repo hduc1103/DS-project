@@ -36,56 +36,70 @@ class ModelOutput(BaseModel):
 
 @app.get("/current")
 def get_current_data():
+    from urllib.parse import urlparse
+    
     base_url = "https://meteologix.com/vn/observations/vietnam/{}/{}-{}z.html"
     station_ids = ["488200", "488250"]
     now = datetime.now()
-    utc_time = now - timedelta(hours=7) 
+    utc_time = now - timedelta(hours=7)
     
-    today_str = utc_time.strftime('%Y%m%d')  
+    today_str = utc_time.strftime('%Y%m%d')
     current_hour = f"{utc_time.hour:02d}00"
     
-    fields= ["wind-direction", "humidity", "temperature", "wind-speed", "weather-observation", "precipitation-total-12h"]
-    urls = [
-        base_url.format(field, today_str,current_hour)
-        for field in fields
-    ]   
+    fields = ["wind-direction", "humidity", "temperature", "wind-speed"]
+    urls = [base_url.format(field, today_str, current_hour) for field in fields]
     
-    data = {"temperature: ": "",
-            "humidity: ": "",
-            "precipitation: ": "",
-            "weather observation: ": "",
-            "wind direction: ": "",
-            "wind speed: ": ""}
+    data = {
+        "temperature: ": "",
+        "humidity: ": "",
+        "precipitation: ": "",
+        "weather observation: ": "",
+        "wind direction: ": "",
+        "wind speed: ": ""
+    }
+
     driver = webdriver.Chrome(options=chrome_options)
-    for url in urls:
-        driver.get(url)
-        WebDriverWait(driver, 5).until(
-            EC.presence_of_all_elements_located((By.CSS_SELECTOR, f"[data-station-id]" in station_ids))
-        )
-        soup = BeautifulSoup(driver.page_source, 'html.parser')
-        element = soup.find(attrs={"data-station-id": station_ids[0]})
-        if element is None:
-            element = soup.find(attrs={"data-station-id": station_ids[1]})
-        if element:
-            title = element.get("title")
-            parts = title.split('|')
-            new_data= parts[0].strip()
-            cur_url = url.split('/')
-            if cur_url[4]=="temperature":
-                data.update({"temperature: ": {new_data}})
-            elif cur_url[4]=="humidity":
-                data.update({"humidity: ": {new_data}})
-            elif cur_url[4]=="precipitation":
-                data.update({"precipitation: ": {new_data}})
-            elif cur_url[4] =="weather-observation":
-                data.update({"weather observation: ": {new_data}})
-            elif cur_url[4] =="wind-direction":
-                data.update({"wind direction: ": {new_data}})
-            elif cur_url[4] =="wind-average-10min":
-                data.update({"wind speed: ": {new_data}})
+    try:
+        for url in urls:
+            print(url)
+            driver.get(url)
+            WebDriverWait(driver, 5).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, f"[data-station-id='{station_ids[0]}']"))
+            )
+            soup = BeautifulSoup(driver.page_source, 'html.parser')
+            element = None
+            for station_id in station_ids:
+                element = soup.find(attrs={"data-station-id": station_id})
+                if element:
+                    break
+
+            if element:
+                title = element.get("title")
+                if title:
+                    parts = title.split('|')
+                    new_data = parts[0].strip()
+                    path_parts = urlparse(url).path.split('/')
+                    field_name = path_parts[4]
+                    if field_name == "temperature":
+                        data["temperature: "] = new_data
+                    elif field_name == "humidity":
+                        data["humidity: "] = new_data
+                    elif field_name == "precipitation-total-12h":
+                        data["precipitation: "] = new_data
+                    elif field_name == "weather-observation":
+                        data["weather observation: "] = new_data
+                    elif field_name == "wind-direction":
+                        data["wind direction: "] = new_data
+                    elif field_name == "wind-speed":
+                        data["wind speed: "] = new_data
+    finally:
+        driver.quit()
+
     print(data)
+    return data
+
         
-def get_data():
+# def get_data():
     
     
 
