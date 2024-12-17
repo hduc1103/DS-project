@@ -101,7 +101,7 @@ def get_current_data():
         
 # def get_data():
     
-    
+@app.post("/predict", response_model=ModelInput)
 
 # @app.post("/predict", response_model=ModelOutput)
 # def predict(input_data: ModelInput):
