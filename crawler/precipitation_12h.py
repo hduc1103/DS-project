@@ -14,8 +14,8 @@ chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_argument('--disable-gpu')
 
-start_date = dt(2023, 1, 1)
-end_date = dt(2023, 12, 31)
+start_date = dt(2024, 12, 29)
+end_date = dt(2024, 12, 29)
 station_ids = ["488200", "488250"]
 base_url = "https://meteologix.com/vn/observations/vietnam/precipitation-total-12h/{}-{}z.html"
 
